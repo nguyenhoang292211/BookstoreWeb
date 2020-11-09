@@ -72,7 +72,7 @@ namespace BOOKSTOREWEB.DAO
                 smtp.Credentials = new System.Net.NetworkCredential(senderID, senderPassword);
                 smtp.Port = 587;
                 smtp.EnableSsl = true;
-                return "123456";
+                //return "123456";
                 smtp.Send(mail);
                 result = code;
             }
