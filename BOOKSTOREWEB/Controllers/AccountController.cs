@@ -15,7 +15,7 @@ namespace BOOKSTOREWEB.Controllers
     [RoutePrefix("api/Account")] // Dùng để định danh đường dẫn api (có thể không cần dùng tới)
     public class AccountController : ApiController
     {
-        /// <summary>
+        /// <summary> 
         /// Thông tin chi tiết về WebAPI: https://www.tutorialsteacher.com/webapi/parameter-binding-in-web-api (một phần hướng dẫn của Web).    
         /// </summary>
         /// <returns></returns>
