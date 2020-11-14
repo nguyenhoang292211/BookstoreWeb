@@ -112,10 +112,12 @@
     <Content Include="Views\Js\Login\getPassword.js" />
     <Content Include="Views\Js\Login\signIn.js" />
     <Content Include="Views\Js\Login\signUp.js" />
+    <Content Include="Views\Pages\Dashboard\home.html" />
     <Content Include="Views\Pages\Login\changePassword.html" />
     <Content Include="Views\Pages\Login\getPassword.html" />
     <Content Include="Views\Pages\Login\signIn.html" />
     <Content Include="Views\Pages\Login\signUp.html" />
+    <Content Include="Views\Shared\_Layout.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
