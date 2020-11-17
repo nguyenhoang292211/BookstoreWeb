@@ -1,0 +1,19 @@
+{
+  "FilePath": "d:\\HCMUTE\\HKI_2020_2021\\Thuong_mai_dien_tu\\Bitbuket\\bookstoreweb\\BOOKSTOREWEB\\BOOKSTOREWEB.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
