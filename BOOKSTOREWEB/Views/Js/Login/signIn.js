@@ -76,10 +76,8 @@ class LoginJS {
 
     addAccount() {
         var account = {
-            ID: 1,
             UserName: $("#txtUsername").val(),
             PassWord: $("#txtPassword").val(),
-            IDPermission: 1
         };
        
         $.ajax({
