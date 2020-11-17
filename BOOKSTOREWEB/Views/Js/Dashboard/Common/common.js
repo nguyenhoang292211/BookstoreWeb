@@ -1,6 +1,8 @@
 $(document).ready(function(){
     var common = new Common();
     window.timeHide = 400;
+
+    $('.mdb-select').materialSelect();
 });
 
 class Common{

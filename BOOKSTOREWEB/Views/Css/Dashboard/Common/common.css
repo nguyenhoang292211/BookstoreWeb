@@ -7,12 +7,26 @@ body{
     outline: none;
 }
 
-.container{
+.horizontal{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-fluid{
+    display: flex;
+    margin: 0;
+    padding: 0px !important;
 }
 
 .menu{
     width: 240px;
+    margin: 0;
 }
 
 .logo{
@@ -20,7 +34,7 @@ body{
     left: 0;
     background: url("../../../Images/logo.png") no-repeat;
     background-size: 235px 100%;
-    width: 238px;
+    width: 240px;
     height: 100px;
     border: 1px solid #000;
     cursor: pointer;
@@ -31,6 +45,8 @@ body{
     position:fixed;
     width: 240px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
     .menu-function button{
@@ -118,22 +134,114 @@ body{
     align-items: center;
     margin: 0%;
     height: 100%;
-    width: 200px;
+    width: 250px;
 }
+.btn-group{
+    width: 100%;
+}
+
+.btn-group .btn-secondary{
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+}
+
+.dropdown-menu{
+    justify-content: center;
+    padding: 0px;
+}
+
+.dropdown-item{
+    width: 100%;
+    padding: 10px 5px;
+    background: #ffffff;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid rgb(71, 69, 69);
+}
+
+.dropdown-item:hover{
+    background: #ccc;
+    color: #ffffff;
+}
+
+.mdb-select{
+    padding: 5px 10px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.active-cyan-2 input.form-control[type=text]:not([readonly]) {
+    border: none;
+    width: 400px;
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border: none;
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan .fa, .active-cyan-2 .fa, .active-cyan-2 .fa-search {
+    color: #4dd0e1;
+    cursor: pointer;
+}
+
 
 .title{
     height: 100%;
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
 }
 
 .function-account{
-    border: 1px solid #ffffff;
+    width: 150px;
     cursor: pointer;
-    border-radius: 20px;
     margin: 2px 5px
 }
 
 #label-account{
+    width: 200px;
     margin: 0;
     padding: 5px 10px;
 }
+
+.btn .btn-secondary .dropdown-toggle{
+    width: 400px;
+}
+
+/* Table */
+.grid table{
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 16px;
+}
+
+table td, th{
+    padding: 4px;
+}
+
+table thead{
+    background-color: rgb(239, 239, 239);
+}
+
+table tbody tr:hover{
+    background-color: #b8e3ff;
+    cursor: pointer;
+}
+/*
+tr.active td{
+    background-color: #b8e3ff;
+}
+*/
+
+table tbody tr.row-selected {
+    background-color: #b8e3ff;
+}
+
+/*  */
