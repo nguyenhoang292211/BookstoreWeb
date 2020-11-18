@@ -26,7 +26,8 @@ namespace BOOKSTOREWEB.DAO
         private VarDAO()
         {
             customer = new Customer();
-            staff = new Staff();
+            //staff = new Staff();
+            staff = StaffDAO.Instance.GetStaffByIDAccount(1);
         }
 
         

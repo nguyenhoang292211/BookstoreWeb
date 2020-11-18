@@ -12,7 +12,7 @@ CREATE TABLE Permissions(
 	id INT IDENTITY PRIMARY KEY,
 	permission  NVARCHAR(30))
 -------------------------------------------------------------- insert
-INSERT INTO Permissions VALUES ('guest'), ('manager'), ('admin')
+INSERT INTO Permissions VALUES ('admin'), ('staff'), ('shipper'), ('user')
 
 
 -----------2. Account -- *done
@@ -23,8 +23,8 @@ CREATE TABLE Account(
 	idPermission INT NOT NULL DEFAULT 0,   
 	FOREIGN KEY (idPermission) REFERENCES Permissions(id))
 ------------------------------------------------------------- insert
-INSERT INTO Account VALUES ('admin001', 'admin001',3), ('manager001', 'manager001',2), ('user001', 'user001',1), ('user002','user002',1),
-							('user003', 'user003',1)
+INSERT INTO Account VALUES ('admin001', 'admin001',1), ('staff001', 'staff001',2), ('shipper001', 'shipper001',3), ('user001','user002',4),
+							('user003', 'user003',4)
 
 
 ------3. Category -- *done
@@ -389,4 +389,8 @@ GO
 --======================================================================================================================================= TRIGGER.
 
 SELECT * FROM dbo.Account
+SELECT * FROM dbo.Staff
 SELECT * FROM dbo.Customer
+SELECT * FROM dbo.Bill
+SELECT * FROM dbo.BillDetail
+SELECT * FROM dbo.Delivery

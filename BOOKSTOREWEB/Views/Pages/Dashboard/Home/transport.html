@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="../../../css/DashBoard/Common/common.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../css/DashBoard/Home/transport.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
-    <title>Common</title>
+    <title>Vận Chuyển</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -43,7 +45,7 @@
         <div class="body">
             <div class="header-bar">
                 <div class="title">
-                    <p id="label-title">Xin chào Admin!</p>
+                    <p id="label-title">Vận chuyển đơn hàng</p>
                 </div>
                 <div class="account">
                     <div class="notify">
@@ -53,6 +55,7 @@
                         
                     </div>
                     <div class="function-account">
+                        <!-- Example single danger button -->
                         <div class="btn-group">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Admin <i class="fas fa-caret-down"></i>
@@ -69,6 +72,71 @@
                 </div>
             </div>
             <div class="content">
+                <div class="file">
+                    <div id="export-file" class="file-function">
+                        <i class="fas fa-download"></i>
+                        Xuất file
+                    </div>
+                    <div id="import-file" class="file-function">
+                        <i class="fas fa-upload"></i>
+                        Nhập file
+                    </div>
+                    <div id="column-adjustment" class="file-function">
+                        <i class="fas fa-cog"></i>
+                        Điều chỉnh cột hiển thị
+                    </div>
+                </div>
+                <div class="transport">
+                    <div class="title-transport">
+                        Tất cả các đơn hàng
+                    </div>
+
+                    <div class="transport-done">
+                        <div class="percent"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <select class="mdb-select md-form" id="status-product">
+                                <option value="0" selected>Trạng thái</option>
+                                <option value="1">Đã giao</option>
+                                <option value="2">Chưa giao</option>
+                                <option value="3">Hoàn trả</option>
+                              </select>
+                              <select class="mdb-select md-form" id="pay-product">
+                                <option value="0" selected>Thanh toán</option>
+                                <option value="1">Đã thanh toán</option>
+                                <option value="2">Chưa thanh toán</option>
+                              </select>
+                        </div>
+                        <div class="col-sm-6 horizontal-center">
+                            <!-- Search form -->
+                            <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2">
+                                <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                                aria-label="Search">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </form>
+                            <button type="button" class="btn btn-primary">Lưu bộ lọc</button>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <table border="1" cellpadding=0 id="table-transport">
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn</th>
+                                    <th>Ngày tạo</th>   
+                                    <th>Khách hàng</th>
+                                    <th>Địa chỉ</th>
+                                    <th>Tiền thu hộ</th>
+                                    <th>Giao hàng</th>
+                                    <th>Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 
             </div>
         </div>

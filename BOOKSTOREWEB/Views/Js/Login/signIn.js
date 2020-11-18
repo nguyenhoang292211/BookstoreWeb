@@ -64,9 +64,10 @@ class LoginJS {
         }).done(function (response) {
             switch (response) {
                 case 0: alert("Tài khoản hoặc mật khẩu không đúng!"); break;
-                case 3: alert("Bạn là admin!"); break;
+                case 1: alert("Bạn là admin!"); break;
                 case 2: alert("Bạn là nhân viên!"); break;
-                case 1: alert("Bạn là khách hàng!"); break;
+                case 3: alert("Bạn là nhân viên giao hàng!"); break;
+                case 4: alert("Bạn là khách hàng!"); break;
                 default: alert("Bạn là đối tượng chưa được xác định");
             }
         }).fail(function (response) {
