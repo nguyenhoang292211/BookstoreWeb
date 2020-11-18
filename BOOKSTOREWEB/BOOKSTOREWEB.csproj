@@ -108,6 +108,7 @@
     <Content Include="Views\Css\Login\signUp.css" />
     <Content Include="Views\Images\facebook.png" />
     <Content Include="Views\Images\gmail.png" />
+    <Content Include="Views\Images\iconLogo.ico" />
     <Content Include="Views\Images\iconLogo.png" />
     <Content Include="Views\Images\logo.png" />
     <Content Include="Views\Images\passwordsmall.png" />

@@ -1,5 +1,8 @@
-﻿using System;
+﻿using BOOKSTOREWEB.DAO;
+using BOOKSTOREWEB.Models;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -7,18 +10,22 @@ using System.Web.Http;
 
 namespace BOOKSTOREWEB.Controllers
 {
+    [RoutePrefix("api/staff")]
     public class StaffController : ApiController
     {
         // GET: api/Staff
-        public IEnumerable<string> Get()
+        [HttpGet]
+        [Route("list-transport")]
+        public DataTable Get()
         {
-            return new string[] { "value1", "value2" };
+            return StaffDAO.Instance.GetListTransport();
         }
 
-        // GET: api/Staff/5
-        public string Get(int id)
+        [HttpGet]
+        [Route("list-transport/{state}")]
+        public DataTable GetListTransportByState(string state)
         {
-            return "value";
+            return StaffDAO.Instance.GetListTransportByState(state);
         }
 
         // POST: api/Staff

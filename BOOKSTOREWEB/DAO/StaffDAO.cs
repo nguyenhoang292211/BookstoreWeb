@@ -33,5 +33,21 @@ namespace BOOKSTOREWEB.DAO
                 return new Staff(data.Rows[0]);
             return null;
         }
+
+        public DataTable GetListTransport()
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetListTransport");
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+
+        public DataTable GetListTransportByState(string state)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetListTransportByState @state", new object[] { state });
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
     }
 }
