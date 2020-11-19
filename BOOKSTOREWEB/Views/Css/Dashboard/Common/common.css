@@ -80,13 +80,10 @@ body{
             background-color: #99caf5;
         }
 
-
-
 .body{
     flex: 70%;
     height: auto;
     flex-wrap: wrap;
-    margin-left: 240px;
 }
 
 .header-bar{

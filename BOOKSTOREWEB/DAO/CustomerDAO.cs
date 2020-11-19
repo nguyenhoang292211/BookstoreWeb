@@ -69,6 +69,9 @@ namespace BOOKSTOREWEB.DAO
                 mail.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
+
+                smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                smtp.UseDefaultCredentials = false;
                 smtp.Credentials = new System.Net.NetworkCredential(senderID, senderPassword);
                 smtp.Port = 587;
                 smtp.EnableSsl = true;

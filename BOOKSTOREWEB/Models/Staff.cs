@@ -62,11 +62,12 @@ namespace BOOKSTOREWEB.Models
             this.Name = row["name"].ToString();
             byte[] pic;
             MemoryStream picture;
-            if (row["avatar"].ToString() != "")
+            if (row["avatar"].ToString() != "" && row["avatar"] != null)
             {
                 pic = (byte[])row["avatar"];
                 picture = new MemoryStream(pic);
-                this.Avatar = Image.FromStream(picture);
+                this.Avatar = null;
+                //this.Avatar = Image.FromStream(picture);
             }
             else
                 this.Avatar = null;
