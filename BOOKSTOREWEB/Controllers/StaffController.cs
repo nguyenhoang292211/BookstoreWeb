@@ -14,19 +14,7 @@ namespace BOOKSTOREWEB.Controllers
     public class StaffController : ApiController
     {
         // GET: api/Staff
-        [HttpGet]
-        [Route("list-transport")]
-        public DataTable Get()
-        {
-            return StaffDAO.Instance.GetListTransport();
-        }
-
-        [HttpGet]
-        [Route("list-transport/{state}")]
-        public DataTable GetListTransportByState(string state)
-        {
-            return StaffDAO.Instance.GetListTransportByState(state);
-        }
+        
 
         // POST: api/Staff
         public void Post([FromBody]string value)

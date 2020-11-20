@@ -42,3 +42,83 @@
 .btn-primary{
     margin-left: 20px;
 }
+
+
+.select-state{
+    width: 90%;
+    height: 90%;
+    padding: 2px;
+}
+
+.select-complete{
+    background: #78ed9e;
+    color: #000;
+}
+
+.select-shipping {
+    background: #3A84B6;
+    color: #fff;
+}
+
+.select-return {
+    background: #d62d2d;
+    color: #fff;
+}
+
+#select-complete {
+    background: #78ed9e;
+    color: #000;
+}
+
+#select-shipping {
+    background: #3A84B6;
+    color: #fff;
+}
+
+#select-return{
+    background: #d62d2d;
+    color: #fff;
+}
+
+table i{
+    cursor: pointer;
+}
+
+.div-front {
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    display: none;
+}
+
+.detail-transprot {
+    width: 60%;
+    background: #fff;
+    opacity: 1.0;
+    border-radius: 20px;
+    padding: 0 30px 30px 30px;
+    margin: 60px auto;
+    transition: 0.5s;
+}
+
+.icon-close {
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 0;
+    text-align: right;
+    font-size: 20px;
+}
+
+#icon-close{
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#icon-close:hover{
+    color: red;
+}

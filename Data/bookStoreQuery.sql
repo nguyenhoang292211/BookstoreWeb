@@ -320,8 +320,8 @@ INSERT INTO Payment VALUES ('cash'), ('VISA CARD'), ('Momo mobile money')
 
 ----------------------------------------
 INSERT INTO Bill VALUES (1, 1,1,0,'123- Andrew, Himston','0123456789','6-27-2020', '7-2-2020', 34000, 192000), --Đã sửa dữ liệu.
-						(2, 2,1,0,'63- Wales, Royal Navy','0333875398','6-26-2020', '7-2-2020',20000,99000),  
-						(3, 3,1,0,'3327- CUmbria Himston','0157856646 ','6-26-2020', '7-1-2020',22000, 180000)
+						(2, 2,1,0,'63- Wales, Royal Navy','0333875398','6-26-2020', '7-2-2020',20000,79000),  
+						(3, 3,1,0,'3327- CUmbria Himston','0157856646 ','6-26-2020', '7-1-2020',22000, 158000)
 
 -------- 14. BillDetail --*doing
 	CREATE TABLE BillDetail(
@@ -333,9 +333,9 @@ INSERT INTO Bill VALUES (1, 1,1,0,'123- Andrew, Himston','0123456789','6-27-2020
 		quantity INT NOT NULL DEFAULT 1,
 		CONSTRAINT bilDetail FOREIGN KEY (idBill) REFERENCES Bill(id),
 		CONSTRAINT proDetail FOREIGN KEY (idProduct) REFERENCES Product(id))
- INSERT INTO  BillDetail VALUES (1,1,'Complete',79000,2),
-								(2,1,'Complete',79000,1),
-								(3,2,'Complete', 79000,2)
+ INSERT INTO  BillDetail VALUES (1, 5, 'complete', 10000, 2), (1, 2, 'complete', 34000, 1), (1,1,'complete',79000,2),
+								(2,1,'shipping',79000,1),
+								(3,2,'return', 79000,2)
 		 
 GO
 
@@ -393,6 +393,7 @@ BEGIN
     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
 	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill
+	GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 END
 GO
 
@@ -404,6 +405,27 @@ BEGIN
     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
 	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bid.state = @state
+	GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+END
+GO
+
+--Cập nhật trạng thái đơn hàng qua idBill
+CREATE PROC USP_UpdateOrderStateByIdBill
+@idBill INT, @state NVARCHAR(30)
+AS
+BEGIN
+    UPDATE dbo.BillDetail SET state = @state WHERE idBill = @idBill
+END
+GO
+
+--Lấy chi tiết đơn hàng vận chuyển
+CREATE PROC USP_GetTransportDetailByIDBill
+@idBill INT
+AS
+BEGIN
+    SELECT bid.idProduct, pro.name, bid.prices, bid.quantity, bid.state
+	FROM dbo.BillDetail AS bid, dbo.Product AS pro
+	WHERE bid.idProduct = pro.id AND bid.idBill = @idBill
 END
 GO
 
@@ -415,6 +437,5 @@ SELECT * FROM dbo.Staff
 SELECT * FROM dbo.Customer
 SELECT * FROM dbo.Bill
 SELECT * FROM dbo.BillDetail
+SELECT * FROM dbo.Product
 SELECT * FROM dbo.Delivery
-
-UPDATE dbo.BillDetail SET state = 'shipping' WHERE idBill = 2

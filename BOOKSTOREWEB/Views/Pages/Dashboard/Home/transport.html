@@ -122,7 +122,7 @@
                             <button type="button" class="btn btn-primary">Lưu bộ lọc</button>
                         </div>
                     </div>
-                    <div class="grid">
+                    <div class="grid" id="gird-transport">
                         <table border="1" cellpadding=0 id="table-transport" class="table">
                             <thead class="thead-light">
                                 <tr>
@@ -132,8 +132,8 @@
                                     <th scope="col">Địa chỉ</th>
                                     <th scope="col">Số điện thoại</th>
                                     <th scope="col">Tiền thu hộ</th>
-                                    <th scope="col">Giao hàng</th>
                                     <th scope="col">Hành động</th>
+                                    <th scope="col">Chi tiết</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -141,11 +141,32 @@
                         </table>
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="div-front">
+            <div class="detail-transprot">
+                <div class="icon-close"><i class="far fa-times-circle" id="icon-close"></i></div>
+                <div class="grid" id="gird-transport-detail">
+                    <table border="1" cellpadding=0 id="table-transport" class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Mã sản phẩm</th>
+                                <th scope="col">Tên sản phẩm</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số lượng</th>
+                                <th scope="col">Tổng</th>
+                                <th scope="col">Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../../../Js/DashBoard/Common/common.js" type="text/javascript"></script>
 <script src="../../../Js/Dashboard/Home/transport.js" type="text/javascript"></script>
