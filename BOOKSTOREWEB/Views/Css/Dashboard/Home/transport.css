@@ -22,7 +22,7 @@
 }
 
 .transport-done{
-    height: 5px;
+    height: 10px;
     border: 1px solid #3A84B6;
     width: calc(100% - 40px);
     margin-left: 20px;
