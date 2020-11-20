@@ -66,7 +66,7 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-right align-drop">
                                 <button class="dropdown-item" type="button">Tài khoản của bạn</button>
-                                <button class="dropdown-item" type="button">Đăng xuất</button>
+                                <a href="../../Login/signIn.html"><button class="dropdown-item" type="button">Đăng xuất</button></a>
                                 <button class="dropdown-item" type="button">Điều khoản</button>
                                 <button class="dropdown-item" type="button">Chính sách bảo mật</button>
                                 <button class="dropdown-item" type="button">Hỗ trợ</button>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <select class="mdb-select md-form" id="order-status">
+                            <select class="mdb-select md-form" id="order-state">
                                 <option value="all" selected>Trạng thái</option>
                                 <option value="complete">Đã giao</option>
                                 <option value="shipping">Đang giao</option>
@@ -116,8 +116,8 @@
                             <!-- Search form -->
                             <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2">
                                 <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
-                                       aria-label="Search">
-                                <i class="fas fa-search" aria-hidden="true"></i>
+                                       aria-label="Search" id="txtSearch">
+                                <i class="fas fa-search" id="btnSearch" aria-hidden="true"></i>
                             </form>
                             <button type="button" class="btn btn-primary">Lưu bộ lọc</button>
                         </div>

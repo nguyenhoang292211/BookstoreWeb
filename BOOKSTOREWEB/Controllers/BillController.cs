@@ -33,6 +33,13 @@ namespace BOOKSTOREWEB.Controllers
             return BillDAO.Instance.GetTransportDetailByIDBill(idBill);
         }
 
+        [HttpGet]
+        [Route("list-transport/{idBill}/{state}")]
+        public DataTable GetTransportByIDBillAndState(int idBill, string state)
+        {
+            return BillDAO.Instance.GetTransportByIDBillAndState(idBill, state);
+        }
+
         // POST: api/Bill
         public void Post([FromBody]string value)
         {

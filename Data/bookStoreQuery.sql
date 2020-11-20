@@ -429,6 +429,27 @@ BEGIN
 END
 GO
 
+--Lấy dữ liệu đơn hàng vận chuyển theo mã đơn hàng và trạng thái đơn hàng
+CREATE PROC USP_GetTransportByIDBillAndState
+@idBill INT, @state NVARCHAR(30)
+AS
+BEGIN
+	IF (@state != N'all')
+	BEGIN
+	    SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+		FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
+		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bid.state = @state AND bi.id = @idBill
+		GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+	END
+    ELSE
+	BEGIN
+	     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+		FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
+		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill
+		GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+	END
+END
+GO
 
 --======================================================================================================================================= TRIGGER.
 

@@ -54,5 +54,13 @@ namespace BOOKSTOREWEB.DAO
                 return data;
             return null;
         }
+
+        public DataTable GetTransportByIDBillAndState(int idBill, string state)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetTransportByIDBillAndState @idBill , @state", new object[] { idBill, state });
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
     }
 }

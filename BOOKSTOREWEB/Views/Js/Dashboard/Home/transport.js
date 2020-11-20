@@ -19,6 +19,7 @@ function showDetailTransport(self) {
     window.transportJS.getListTransportDetail(idBill);
 }
 
+//===================================================================//
 class TransportJS {
     constructor() {
         this.initEvents();
@@ -26,15 +27,16 @@ class TransportJS {
 
     initEvents() {
         self = this;
-        window.orderStatus = 'all';
+        window.orderState = 'all';
         this.getListTransport()
-        $('#order-status').on('change', function () {
-            window.orderStatus = $('#order-status').val();
-            self.getListTransport().bind(this);
+        $('#order-state').on('change', function () {
+            window.orderState = $('#order-state').val();
+            self.getListTransport();
         });
         $('#icon-close').click(function () {
             $('.div-front').hide();
         });
+        $('#btnSearch').click(this.getListTransportByIDBillAndState.bind(this));
     }
 
     fillDataTransport(response) {
@@ -83,7 +85,7 @@ class TransportJS {
 
     getListTransport() {
         self = this;
-        var URL = self.getUrlApi(window.orderStatus);
+        var URL = self.getUrlApi(window.orderState);
         $.ajax({
             url: URL,
             method: "GET",
@@ -123,6 +125,7 @@ class TransportJS {
     }
 
     updateOrderStateByIdBill(idBill, state) {
+        self = this;
         $.ajax({
             url: '/api/bill/update-transport/' + idBill + '/' + state,
             method: 'PUT',
@@ -130,14 +133,14 @@ class TransportJS {
             dataType: 'json'
         }).done(function (response) {
             if (response) {
-               
+                self.getListTransport();
             }
             else {
                 alert("Cập nhật không thành công!");
             }
             window.resultUpdateOrderState = response;
         }).fail(function (response) {
-            alert("Hiện tại ứng dụng đang được bảo trì, vui lòng thử lại sau!")
+            alert("Hiện tại ứng dụng đang được bảo trì, vui lòng thử lại sau!");
         });
     }
 
@@ -146,21 +149,21 @@ class TransportJS {
             case 'complete':
                 if (!self.fill)
                     window.countDone++;
-                $('#' + self.id).removeClass('select-return')
+                $('#' + self.id).removeClass('select-return');
                 $('#' + self.id).removeClass('select-shipping');
                 $('#' + self.id).addClass('select-complete');
                 break;
             case 'shipping':
                 if ($('#' + self.id).hasClass('select-complete'))
                     window.countDone--;
-                $('#' + self.id).removeClass('select-complete')
-                $('#' + self.id).removeClass('select-return')
+                $('#' + self.id).removeClass('select-complete');
+                $('#' + self.id).removeClass('select-return');
                 $('#' + self.id).addClass('select-shipping');
                 break;
             case 'return':
                 if ($('#' + self.id).hasClass('select-complete'))
                     window.countDone--;
-                $('#' + self.id).removeClass('select-complete')
+                $('#' + self.id).removeClass('select-complete');
                 $('#' + self.id).removeClass('select-shipping');
                 $('#' + self.id).addClass('select-return');
                 break;
@@ -176,7 +179,6 @@ class TransportJS {
         $('.percent').css("width", width + '%');
         $('.percent').css("background-size", background_size_width + '% 100%');
     }
-
 
     //Bill Detail
     fillDataTransportDetail(response) {
@@ -208,6 +210,29 @@ class TransportJS {
             dataType: "json", //Kiểu dữ liệu truyền lên.
         }).done(function (response) {
             self.fillDataTransportDetail(response);
+        }).fail(function (response) {
+            alert("Hệ thống đang trong thời gian bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+    //Search
+    getListTransportByIDBillAndState() {
+        self = this;
+        var idBill = $("#txtSearch").val();
+        var state = window.orderState;
+        var URL = '/api/bill/list-transport/' + idBill + '/' + state;
+        if (idBill == "")
+            URL = '/api/bill/list-transport';
+        $.ajax({
+            url: URL,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json", //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.fillDataTransport(response);
         }).fail(function (response) {
             alert("Hệ thống đang trong thời gian bảo trì, vui lòng thử lại sau!");
         });
