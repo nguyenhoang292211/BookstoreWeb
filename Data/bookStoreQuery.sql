@@ -397,7 +397,7 @@ AS
 BEGIN
     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
-	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill
+	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bid.state != N'unapproved'
 	GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 END
 GO
@@ -450,7 +450,7 @@ BEGIN
 	BEGIN
 	     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 		FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
-		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill
+		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill AND bid.state != N'unapproved'
 		GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	END
 END
