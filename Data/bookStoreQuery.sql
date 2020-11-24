@@ -59,6 +59,21 @@ INSERT INTO Types VALUES (1, 'Listening book'), (1, 'Speaking book'), (1,'Biling
 						(2, 'Anime'), (2, 'Thriller Book'), (2,'Fiction'), (2,'Short story'),
 						(3, 'Programming for Beginners'), (3,'Scratch code'),  (3,'Android programming')
 
+------- 9. Voucher --*doing --done model
+CREATE TABLE Voucher(
+	id INT IDENTITY (1,1) PRIMARY KEY,
+	name NVARCHAR(100) NOT NULL DEFAULT 'Annual promotions',
+	startDate DATETIME NOT NULL DEFAULT GETDATE(),
+	endDate DATETIME NOT NULL DEFAULT GETDATE(),
+	detail NVARCHAR(MAX),
+	discount FLOAT NOT NULL DEFAULT 0)
+INSERT INTO Voucher VALUES 
+		('Summer Promotion', '1-1-2020', '6-1-2000', '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...',0.2), 
+		('Back to school', '10-1-2020', '12-1-2000', '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...',0.3)
+
+
 ------5. Product --*doing --done Model.
 CREATE TABLE Product(
 	id INT IDENTITY PRIMARY KEY,
@@ -73,117 +88,120 @@ CREATE TABLE Product(
 	publisher NVARCHAR(100),
 	rating float NOT NULL DEFAULT 3.0,
 	score INT NOT NULL DEFAULT 0,
+	idVoucher INT NOT NULL DEFAULT 0,				-------Thêm phần discount cho mỗi sản phẩm ---Được thêm bởi Hoàng Nguyễn (24/11/2020) 
 	FOREIGN KEY (idShop) REFERENCES dbo.Shop(id),
-	FOREIGN KEY (idType) REFERENCES Types(id))
+	FOREIGN KEY (idType) REFERENCES Types(id)
+	
+)
 
 INSERT INTO Product VALUES (1, 1, 'Listening band 3.5 to 4.5',79000, 20,'Hyrichy Adobe', '	Our unique self-paced approach will help you build competence and 
 											confidence in your programming skills. And Python is the best language ever for learning how to 
 											program because of its simplicity and breadth...two features that are hard to 
-											find in a single language',4, 'KMTC Publisher',4.6, 300),
+											find in a single language',4, 'KMTC Publisher',4.6, 300,0),
 						(1, 1, 'Listening band 7.0 to 9.0',79000,21,'Hyrichy Adobe', 'Our unique self-paced approach will help you build competence and 
 											confidence in your programming skills. And Python is the best language ever for learning how to 
 											program because of its simplicity and breadth...two features that are hard to 
-											find in a single language',5, 'Starz Entertainment',3.6, 2550),
+											find in a single language',5, 'Starz Entertainment',3.6, 2550,0),
 						(1, 2, 'Main meaning for Speaking Ielts test',79000,36,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',75, 'KMTC Publisher',4.9, 536),
+											Booklist (starred review)',75, 'KMTC Publisher',4.9, 536,0),
 						(1, 2, 'Speaking band 4.5 to 6.0',79000,122,'Romy Hausmann','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',50, 'Starz Entertainment',4.7, 366), 
+											Booklist (starred review)',50, 'Starz Entertainment',4.7, 366,0), 
 						(1, 2, 'Suggesting in Speaking Ielts test',35000,35,'Romy Hausmann','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',13, 'KMTC Publisher',4.0, 364),
+											Booklist (starred review)',13, 'KMTC Publisher',4.0, 364,0),
 						(1, 3, 'The Foot boook',25000,1,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',55, 'KMTC Publisher',3.9,155),
+											Booklist (starred review)',55, 'KMTC Publisher',3.9,155,1),
 						(1, 3,'Collins easy learning Italia words',155000,86,'Catherine Gildiner','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',44, 'KMTC Publisher',3.6, 233),
+											Booklist (starred review)',44, 'KMTC Publisher',3.6, 233,2),
 						(1, 4,'Oxford Dictionary 10000 word',86000,74,'Romy Hausmann','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',2, 'KMTC Publisher',1.5, 100),
+											Booklist (starred review)',2, 'KMTC Publisher',1.5, 100,1),
 						(1, 4,'Oxford Dictionary essential word',126000,66,'Romy Hausmann','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',5, 'KMTC Publisher',3.0,20),
+											Booklist (starred review)',5, 'KMTC Publisher',3.0,20,0),
 						(1, 5,'Your Name',195000,22,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',88, 'KMTC Publisher',4.3, 400),
+											Booklist (starred review)',88, 'KMTC Publisher',4.3, 400,0),
 						(1, 5,'Sheep or ship',255000,58,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',56, 'KMTC Publisher',4.6, 299),
+											Booklist (starred review)',56, 'KMTC Publisher',4.6, 299,0),
 						(1, 5,'How the  sheep turn to moon',155000,2,'Catherine Gildiner','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',120, 'Starz Entertainment',4.8, 355),
+											Booklist (starred review)',120, 'Starz Entertainment',4.8, 355,0),
 						(1, 6, 'Edogawa Conan Detective 1',169000,3,'Catherine Gildiner','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',22, 'KMTC Publisher',4.2, 315), 
+											Booklist (starred review)',22, 'KMTC Publisher',4.2, 315,0), 
 						(1, 6, 'Edogawa Conan Detective 2',99000,8,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',89, 'KMTC Publisher',4.5, 465),
+											Booklist (starred review)',89, 'KMTC Publisher',4.5, 465,1),
 						(1, 7, 'Flower on the OldMan',109000,7,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',42, 'Starz Entertainment',4.5, 306),
+											Booklist (starred review)',42, 'Starz Entertainment',4.5, 306,1),
 						(1, 7, 'Secret make Secret Woman',126000,2,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',2, 'Kindle Edition',4.2, 300), 
+											Booklist (starred review)',2, 'Kindle Edition',4.2, 300,0), 
 						(1, 8, 'Adventure of Jack and his tiny friend',79000,9,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',6, 'KMTC Publisher',4.9, 335),
+											Booklist (starred review)',6, 'KMTC Publisher',4.9, 335,2),
 						(1, 8, 'Poenic of twenty zodiacs',39000,3,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',9, 'Sling TV LLC',4.8, 265),
+											Booklist (starred review)',9, 'Sling TV LLC',4.8, 265,0),
 						(1, 8, 'Helalulu in giant land 2',89000,2,'Sigrid Nunez','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',5, 'KMTC Publisher',4.6, 342), 
+											Booklist (starred review)',5, 'KMTC Publisher',4.6, 342,2), 
 						(1, 9, 'How I start my ethusiastic with coding!',99000, 7,'Sigrid Nunez','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',2, 'Kindle Edition',5, 105), 
+											Booklist (starred review)',2, 'Kindle Edition',5, 105,2), 
 						(1, 9, 'Your first coding programming',129000,2,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',23, 'Sling TV LLC',4.2, 300), 
+											Booklist (starred review)',23, 'Sling TV LLC',4.2, 300,0), 
 						(1, 10, 'What is scatch? How your children like this?',139000,3,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',88, 'Kindle Edition',4.2,262),
+											Booklist (starred review)',88, 'Kindle Edition',4.2,262,0),
 						(1, 10, 'Scratching version Math- a close friend',89000,9,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',55, 'Sling TV LLC',4.8, 368),
+											Booklist (starred review)',55, 'Sling TV LLC',4.8, 368,0),
 						(1, 10, 'Scatch and your life- efficient impact, get better in every day',55000,2,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',66, 'Starz Entertainment',4.2, 359), 
+											Booklist (starred review)',66, 'Starz Entertainment',4.2, 359,0), 
 						(1, 11, 'Work with Java, first step to become Android Development',68000,9,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',15, 'Kindle Edition',4.8, 325), 
+											Booklist (starred review)',15, 'Kindle Edition',4.8, 325,0), 
 						(1, 11, 'Android with Android Studio',136000,65,'Hyrichy Adobe','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',64, 'Kindle Edition',4.6, 234), 
+											Booklist (starred review)',64, 'Kindle Edition',4.6, 234,0), 
 						(1, 11, 'UX design- better for your application',13000,64,'Sigrid Nunez','Christie Tates...writing displays a wonderful combination
 											of clear and simple with sparkle and intelligence...[Group is] a compelling narrative
 											that empowers readers to better understand their own lives.
-											Booklist (starred review)',5, 'Kindle Edition',4.6, 364)
+											Booklist (starred review)',5, 'Kindle Edition',4.6, 364,0)
 						
 
 
@@ -251,19 +269,6 @@ INSERT INTO Cart VALUES (3, 2,1, 2), (3,6, 1, 1), (3,9, 1, 2),
 						(2, 2, 1, 1), (2,5, 1, 2),
 						(1,3, 1, 1), (1,1, 1, 1), (1,10, 1, 2)
 
-------- 9. Voucher --*doing --done model
-CREATE TABLE Voucher(
-	id INT IDENTITY (1,1) PRIMARY KEY,
-	name NVARCHAR(100) NOT NULL DEFAULT 'Annual promotions',
-	startDate DATETIME NOT NULL DEFAULT GETDATE(),
-	endDate DATETIME NOT NULL DEFAULT GETDATE(),
-	detail NVARCHAR(MAX),
-	discount FLOAT NOT NULL DEFAULT 0)
-INSERT INTO Voucher VALUES 
-		('Summer Promotion', '1-1-2020', '6-1-2000', '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...',0.2), 
-		('Back to school', '10-1-2020', '12-1-2000', '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...',0.3)
 
 
 ------- 10. Comment --*doing --done model
@@ -392,7 +397,7 @@ AS
 BEGIN
     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
-	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bid.state != N'unapproved'
+	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill
 	GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 END
 GO
@@ -445,7 +450,7 @@ BEGIN
 	BEGIN
 	     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 		FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
-		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill AND bid.state != N'unapproved'
+		WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill
 		GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
 	END
 END
