@@ -393,7 +393,6 @@ D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bi
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll

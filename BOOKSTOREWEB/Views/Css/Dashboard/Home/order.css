@@ -1,0 +1,18 @@
+﻿.btn-approval, .btn-cancel {
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn-approval{
+    background: green;
+}
+
+.btn-cancel {
+    background: red;
+}
+
+.btn-approval:hover, .btn-cancel:hover {
+    background: #fff;
+    border: 1px solid;
+}
+

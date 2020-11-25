@@ -1,8 +1,6 @@
 $(document).ready(function(){
     var common = new Common();
     window.timeHide = 400;
-
-    $('.mdb-select').materialSelect();
 });
 
 class Common{
@@ -24,7 +22,8 @@ class Common{
 
     showOrderForm()
     {
-        $("#function-detail-order-form").slideToggle(window.timeHide);
+        //$(location).attr('href', '../../../Pages/Dashboard/Home/order.html');
+        $("#function-detail-order-form").slideToggle(window.timeHide);   
         this.hideProduct();
         this.hidePromote();
     }

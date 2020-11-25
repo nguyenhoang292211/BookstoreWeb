@@ -40,6 +40,14 @@ namespace BOOKSTOREWEB.Controllers
             return BillDAO.Instance.GetTransportByIDBillAndState(idBill, state);
         }
 
+        [HttpGet]
+        [Route("list-order")]
+        public DataTable GetOrderFullState()
+        {
+            return BillDAO.Instance.GetOrderFullState();
+        }
+
+
         // POST: api/Bill
         public void Post([FromBody]string value)
         {

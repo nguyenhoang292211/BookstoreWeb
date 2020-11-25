@@ -62,5 +62,13 @@ namespace BOOKSTOREWEB.DAO
                 return data;
             return null;
         }
+
+        public DataTable GetOrderFullState()
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetOrderFullState");
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
     }
 }
