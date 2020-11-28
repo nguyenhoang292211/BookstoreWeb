@@ -482,6 +482,19 @@ BEGIN
 END
 GO
 
+--Tìm kiếm order qua IDBill
+CREATE PROC USP_GetOrderByIDBill
+@idBill INT
+AS
+BEGIN
+     SELECT bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+	FROM dbo.Bill AS bi, dbo.Customer AS cus, dbo.BillDetail AS bid
+	WHERE bi.idCustomer = cus.id AND bi.id = bid.idBill AND bi.id = @idBill
+	GROUP BY bi.id, bi.dateConfirm, cus.name, bi.addressReceive, bi.phone, bi.totalCost, bid.state
+END
+GO
+
+
 --======================================================================================================================================= TRIGGER.
 
 SELECT * FROM dbo.Account

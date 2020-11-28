@@ -48,6 +48,10 @@ class OrderJS {
             window.stateOrder = state;
             self.getListOrder(state);
         });
+
+        $("#btnSearch").click(function () {
+            self.getListOrderByIDBill($("#txtSearch").val());
+        });
     }
 
     convertStateToVi(state) {
@@ -90,8 +94,8 @@ class OrderJS {
         if (state == 'unapproved')
             return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>
                 <button class="btn btn-cancel" id=` + idCancelled + ` onclick="updateCancelled(this)">Hủy</button>`;
-        else if (state == 'cancelled')
-            return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>`;
+        /*else if (state == 'cancelled')
+            return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>`;*/
         return "";
     }
 
@@ -104,6 +108,29 @@ class OrderJS {
             URL = "/api/bill/list-transport";
         else
             URL = "/api/bill/list-transport/" + state;
+        $.ajax({
+            url: URL,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json" //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.fillDataOrder(response);
+        }).fail(function (response) {
+            alert("Hệ thống đang bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+    getListOrderByIDBill(idBill) {
+        self = this;
+        var URL;
+        if (idBill == "")
+            URL = "/api/bill/list-order";
+        else {
+            URL = "/api/bill/list-order/" + idBill;
+        }
         $.ajax({
             url: URL,
             method: "GET",

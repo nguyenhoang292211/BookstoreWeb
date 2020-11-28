@@ -41,6 +41,14 @@ namespace BOOKSTOREWEB.DAO
             return null;
         }
 
+        public DataTable GetOrderByIDBill(int idBill)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetOrderByIDBill @idBill", new object[] { idBill });
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+
         public bool UpdateOrderStateByIdBill(int idBill, string state)
         {
             int result = DataProvider.Instance.ExecuteNonQuery("USP_UpdateOrderStateByIdBill @idBill , @state", new object[] { idBill, state });
