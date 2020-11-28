@@ -104,7 +104,6 @@
     <Content Include="Global.asax" />
     <Content Include="Views\Css\Dashboard\Common\common.css" />
     <Content Include="Views\Css\Dashboard\Home\order.css" />
-    <Content Include="Views\Css\Dashboard\Home\orderDetail.css" />
     <Content Include="Views\Css\Dashboard\Home\transport.css" />
     <Content Include="Views\Css\Login\signIn.css" />
     <Content Include="Views\Css\Login\signUp.css" />
@@ -117,7 +116,6 @@
     <Content Include="Views\Images\usernamesmall.png" />
     <Content Include="Views\Js\Dashboard\Common\common.js" />
     <Content Include="Views\Js\Dashboard\Home\order.js" />
-    <Content Include="Views\Js\Dashboard\Home\orderDetail.js" />
     <Content Include="Views\Js\Dashboard\Home\transport.js" />
     <Content Include="Views\Js\jquery-3.5.1.min.js" />
     <Content Include="Views\Js\Login\getPassword.js" />
@@ -125,7 +123,6 @@
     <Content Include="Views\Js\Login\signUp.js" />
     <Content Include="Views\Pages\Dashboard\Common\common.html" />
     <Content Include="Views\Pages\Dashboard\Home\order.html" />
-    <Content Include="Views\Pages\Dashboard\Home\orderDetail.html" />
     <Content Include="Views\Pages\Dashboard\Home\transport.html" />
     <Content Include="Views\Pages\Login\changePassword.html" />
     <Content Include="Views\Pages\Login\getPassword.html" />
