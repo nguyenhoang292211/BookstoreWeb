@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="../../../Css/Dashboard/Common/common.css" rel="stylesheet" />
+    <link href="../../../Css/Dashboard/Home/transport.css" rel="stylesheet" />
+    <link href="../../../Css/Dashboard/Home/order.css" rel="stylesheet" />
+    <link href="../../../Css/Dashboard/Home/promotion.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="icon" href="../../../Images/iconLogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../../Images/iconLogo.ico" type="image/x-icon" />
+
+    <title>Khuyến mãi</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="menu">
+            <div class="logo">
+            </div>
+            <div class="menu-function">
+                <button id="btnOverview">Tổng quan</button>
+                <button id="btnOrderForm">Đơn hàng</button>
+                <div class="function-detail" id="function-detail-order-form">
+                    <button id="btnOrderFormDetail">Chi tiết đơn hàng</button>
+                </div>
+                <button id="btnTransport">Vận chuyển</button>
+                <button id="btnProduct">Sản phẩm</button>
+                <div class="function-detail" id="function-detail-product">
+                    <button id="btnAddProduct">Thêm sản phẩm</button>
+                    <button id="btnProductApproval">Phê duyệt sản phẩm</button>
+                </div>
+                <button id="btnCustomer">Khách hàng</button>
+                <button id="btnPromote">Khuyến mãi</button>
+                <div class="function-detail" id="function-detail-promote">
+                    <button id="btnListProductPromote">Danh sách sản phẩm khuyến mãi</button>
+                    <button id="btnPromoteApproval">Phê duyệt khuyến mãi</button>
+                </div>
+                <button id="btnReport">Báo cáo</button>
+                <button id="btnAccount">Tài khoản</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="header-bar">
+                <div class="title">
+                    <p id="label-title">Danh sách chương trình khuyến mãi</p>
+                </div>
+                <div class="account">
+                    <div class="notify">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="avatar">
+
+                    </div>
+                    <div class="function-account">
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Admin <i class="fas fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right align-drop">
+                                <button class="dropdown-item" type="button">Tài khoản của bạn</button>
+                                <a href="../../Login/signIn.html"><button class="dropdown-item" type="button">Đăng xuất</button></a>
+                                <button class="dropdown-item" type="button">Điều khoản</button>
+                                <button class="dropdown-item" type="button">Chính sách bảo mật</button>
+                                <button class="dropdown-item" type="button">Hỗ trợ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="file">
+                    <div id="export-file" class="file-function">
+                        <i class="fas fa-download"></i>
+                        Xuất file
+                    </div>
+                    <div id="import-file" class="file-function">
+                        <i class="fas fa-upload"></i>
+                        Nhập file
+                    </div>
+                    <div id="column-adjustment" class="file-function">
+                        <i class="fas fa-cog"></i>
+                        Điều chỉnh cột hiển thị
+                    </div>
+                </div>
+                <div class="promotion">
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <select class="mdb-select md-form" id="order-state-filter">
+                                <option value="all" selected>Lọc đơn</option>
+
+                            </select>
+                        </div>
+                        <div class="col-sm-6 horizontal-center">
+                            <!-- Search form -->
+                            <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2">
+                                <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                                       aria-label="Search" id="txtSearch">
+                                <i class="fas fa-search" id="btnSearch" aria-hidden="true"></i>
+                                <button type="button" class="btn btn-primary">Tạo mới</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="grid" id="gird-promotion">
+                        <table border="1" cellpadding=0 id="table-promotion" class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Tên chương trình khuyến mãi</th>
+                                    <th scope="col">Ngày bắt đầu</th>
+                                    <th scope="col">Ngày kết thúc</th>
+                                    <th scope="col">Loại khuyến mãi</th>
+                                    <th scope="col">Giá trị </th>
+                                    <th scope="col">Trạng thái</th>
+                                    <th scope="col">Hành động</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                    <div class="grid" id="gird-promotion">
+                        <table border="1" cellpadding=0 id="table-promotion" class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Tên chương trình khuyến mãi</th>
+                                    <th scope="col">Ngày bắt đầu</th>
+                                    <th scope="col">Ngày kết thúc</th>
+                                    <th scope="col">Loại khuyến mãi</th>
+                                    <th scope="col">Giá trị </th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--<div class="btn-index">
+                        <button type="button" class="btn btn-primary">Thêm</button>
+                    </div>-->
+                    <button type="button" class="btn btn-primary">Thêm</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../../../Js/DashBoard/Common/common.js" type="text/javascript"></script>
+<script src="../../../Js/Dashboard/Home/order.js" type="text/javascript"></script>
+<script src="../../../Js/Dashboard/Home/promotion.js" type="text/javascript"></script>
+</html>
