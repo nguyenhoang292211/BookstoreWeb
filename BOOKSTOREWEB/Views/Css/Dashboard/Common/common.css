@@ -271,7 +271,7 @@ table tbody tr.row-selected {
     display: none;
 }
 
-/*.in-div-front {
+.in-div-front {
     width: 60%;
     background: #fff;
     opacity: 1.0;
@@ -279,4 +279,4 @@ table tbody tr.row-selected {
     padding: 0 30px 30px 30px;
     margin: 60px auto;
     transition: 0.5s;
-}*/
+}

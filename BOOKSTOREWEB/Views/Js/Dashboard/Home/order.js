@@ -237,6 +237,7 @@ class OrderJS {
     }
 
     fillDataInfoCustomer(response) {
+        $('#footer-order-detail').empty();
         $.each(response, function (index, item) {
             var trHTML = $(`
                <p>Họ tên: <b> ` + item.name + `</b></p>
@@ -267,6 +268,8 @@ class OrderJS {
     }
 
     fillDataInfoBill(response) {
+        $('#transport-fee').empty();
+        $('#total-cost').empty();
         $.each(response, function (index, item) {
             var trHTML = $(`
                <p>` + self.commaSeparateNumber(item.feeShip) + `</p>
