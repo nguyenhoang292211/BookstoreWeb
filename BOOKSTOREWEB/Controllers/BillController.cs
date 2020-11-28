@@ -47,6 +47,19 @@ namespace BOOKSTOREWEB.Controllers
             return BillDAO.Instance.GetOrderFullState();
         }
 
+        [HttpGet]
+        [Route("info-customer/{idBill}")]
+        public DataTable GetInfoCustomerByIDBill(int idBill)
+        {
+            return BillDAO.Instance.GetCustomerByIDBill(idBill);
+        }
+
+        [HttpGet]
+        [Route("info-bill/{idBill}")]
+        public DataTable GetInfoBillByIDBill(int idBill)
+        {
+            return BillDAO.Instance.GetInfoBillByIDBill(idBill);
+        }
 
         // POST: api/Bill
         public void Post([FromBody]string value)

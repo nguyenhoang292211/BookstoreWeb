@@ -397,3 +397,4 @@ D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\ob
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
+D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache

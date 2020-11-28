@@ -70,5 +70,21 @@ namespace BOOKSTOREWEB.DAO
                 return data;
             return null;
         }
+
+        public DataTable GetCustomerByIDBill(int idBill)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetInfoCustomerByIDBill @idBill", new object[] { idBill });
+            if (data.Rows.Count > 0)
+                return data;
+            return null;    
+        }
+
+        public DataTable GetInfoBillByIDBill(int idBill)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetInfoBillByIDBill @idBill", new object[] { idBill });
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
     }
 }

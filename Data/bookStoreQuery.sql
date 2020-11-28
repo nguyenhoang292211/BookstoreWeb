@@ -462,6 +462,26 @@ BEGIN
 END
 GO
 
+--Lấy dữ liệu khách hàng thông qua IDBill
+CREATE PROC USP_GetInfoCustomerByIDBill
+@idBill INT
+AS
+BEGIN
+    SELECT bi.idCustomer, cus.name, bi.phone, cus.email, bi.addressReceive
+	FROM dbo.Bill AS bi, dbo.Customer AS cus
+	WHERE bi.idCustomer = cus.id AND bi.id = @idBill
+END
+GO
+
+--Lấy thông tin Bill bằng idBill
+CREATE PROC USP_GetInfoBillByIDBill
+@idBill INT
+AS
+BEGIN
+  SELECT idCustomer, idDelivery, idPayment, idVoucher, addressReceive, phone, dateConfirm, dateReceive, feeShip, totalCost FROM dbo.Bill WHERE id = @idBill
+END
+GO
+
 --======================================================================================================================================= TRIGGER.
 
 SELECT * FROM dbo.Account
@@ -477,3 +497,5 @@ UPDATE dbo.BillDetail SET state = 'unapproved'
 EXEC dbo.USP_GetListTransport
 
 EXEC dbo.USP_GetOrderFullState
+
+EXEC dbo.USP_GetTransportDetailByIDBill @idBill = 1 -- int
