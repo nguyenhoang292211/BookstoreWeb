@@ -14,7 +14,7 @@ function sleep(ms) {
 function showDetailTransport(self) {
     var idBill = self.id.replace('select-detail-', '');
     $('.div-front').show();
-    window.orderJS.getListTransportDetail(idBill);
+    window.orderJS.getListOrderDetail(idBill);
 }
 
 function updateApproved(self) {
@@ -47,6 +47,10 @@ class OrderJS {
             var state = $('#order-state-filter').val();
             window.stateOrder = state;
             self.getListOrder(state);
+        });
+
+        $("#btnSearch").click(function () {
+            self.getListOrderByIDBill($("#txtSearch").val());
         });
     }
 
@@ -90,8 +94,8 @@ class OrderJS {
         if (state == 'unapproved')
             return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>
                 <button class="btn btn-cancel" id=` + idCancelled + ` onclick="updateCancelled(this)">Hủy</button>`;
-        else if (state == 'cancelled')
-            return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>`;
+        /*else if (state == 'cancelled')
+            return `<button class="btn btn-approval" id=` + idApproved + ` onclick="updateApproved(this)">Duyệt</button>`;*/
         return "";
     }
 
@@ -104,6 +108,29 @@ class OrderJS {
             URL = "/api/bill/list-transport";
         else
             URL = "/api/bill/list-transport/" + state;
+        $.ajax({
+            url: URL,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json" //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.fillDataOrder(response);
+        }).fail(function (response) {
+            alert("Hệ thống đang bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+    getListOrderByIDBill(idBill) {
+        self = this;
+        var URL;
+        if (idBill == "")
+            URL = "/api/bill/list-order";
+        else {
+            URL = "/api/bill/list-order/" + idBill;
+        }
         $.ajax({
             url: URL,
             method: "GET",
@@ -191,6 +218,122 @@ class OrderJS {
         var background_size_width = 10000 / width;
         $('.percent').css("width", width + '%');
         $('.percent').css("background-size", background_size_width + '% 100%');
+    }
+
+
+
+
+
+    fillDataOrderDetail(response) {
+        self = this;
+        $('#gird-order-detail tbody').empty();
+        var i = 1;
+        window.sum = 0;
+        // var data = response.Countries;
+        $.each(response, function (index, item) {
+            window.sum += item.quantity * item.prices;
+            var trHTML = $(`<tr>
+            <td>` + i++ + `</td>
+            <td>` + item.idProduct + `</td>
+            <td>` + item.name + `</td>
+            <td class="text-center">` + item.quantity + `</td>
+            <td class="text-right">` + self.commaSeparateNumber(item.prices) + `</td>
+            <td class="text-right">` + self.commaSeparateNumber(item.prices * item.quantity) + `</td>
+            </tr> `);
+            $('#gird-order-detail tbody').append(trHTML);//chen duoi
+            //$('.grid tbody').prepend(trHTML);// chen tren
+        });
+    }
+
+    getListOrderDetail(idBill) {
+        self = this;
+        $.ajax({
+            url: "/api/bill/list-transport-detail/" + idBill,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json" //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.fillDataOrderDetail(response);
+            self.getInfoBill(idBill);
+        }).fail(function (response) {
+            alert("Hệ thống đang bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+    fillDataInfoCustomer(response) {
+        $('#footer-order-detail').empty();
+        $.each(response, function (index, item) {
+            var trHTML = $(`
+               <p>Họ tên: <b> ` + item.name + `</b></p>
+               <p>Số điện thoại: <b>` + item.phone + `</b></p>
+               <p>Email: <b> ` + item.email + `</b></p>
+               <p>Địa chỉ: <b> ` + item.addressReceive + `</b></p>
+             `);
+            $('#footer-order-detail').append(trHTML);//chen duoi
+            //$('.grid tbody').prepend(trHTML);// chen tren
+        });
+    }
+
+    getInfoCustomer(idBill) {
+        self = this;
+        $.ajax({
+            url: "/api/bill/info-customer/" + idBill,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json" //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.fillDataInfoCustomer(response);
+        }).fail(function (response) {
+            alert("Hệ thống đang bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+    fillDataInfoBill(response) {
+        $('#transport-fee').empty();
+        $('#total-cost').empty();
+        $.each(response, function (index, item) {
+            var trHTML = $(`
+               <p>` + self.commaSeparateNumber(item.feeShip) + `</p>
+             `);
+            $('#transport-fee').append(trHTML);
+            var trHTML = $(`
+               <p>` + self.commaSeparateNumber(item.totalCost) + `</p>
+             `);
+            $('#total-cost').append(trHTML);
+        });
+    }
+
+    getInfoBill(idBill) {
+        self = this;
+        $.ajax({
+            url: "/api/bill/info-bill/" + idBill,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            dataType: "json"
+        }).done(function (response) {
+            self.fillDataInfoBill(response);
+            self.getInfoCustomer(idBill);
+        }).fail(function (response) {
+            alert("Hệ thống đang bảo trì, vui lòng thử lại sau!");
+        });
+    }
+
+
+    commaSeparateNumber(val) {
+        while (/(\d+)(\d{3})/.test(val.toString())) {
+            val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+        }
+        val += ' VNĐ';
+        return val;
     }
 }
 
