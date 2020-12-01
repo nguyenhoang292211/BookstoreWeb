@@ -140,25 +140,42 @@
             </div>
         </div>
         <div class="div-front">
-            <div class="detail-transprot">
+            <div class="in-div-front">
                 <div class="icon-close"><i class="far fa-times-circle" id="icon-close"></i></div>
-                <div class="grid" id="gird-transport-detail">
-                    <table border="1" cellpadding=0 id="table-transport" class="table">
-                        <thead class="thead-light">
-                            <tr>
-                                <th scope="col">Mã sản phẩm</th>
-                                <th scope="col">Tên sản phẩm</th>
-                                <th scope="col">Giá</th>
-                                <th scope="col">Số lượng</th>
-                                <th scope="col">Tổng</th>
-                                <th scope="col">Trạng thái</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+                <div class="row" id="order-detail">
+                    <div class="col-sm-9">
+                        <div class="grid" id="gird-order-detail">
+                            <table border="1" cellpadding=0 id="table-transport" class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">STT</th>
+                                        <th scope="col">Mã SKU</th>
+                                        <th scope="col">Tên sản phẩm</th>
+                                        <th scope="col">Số lượng</th>
+                                        <th scope="col">Đơn giá</th>
+                                        <th scope="col">Thành tiền</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="total-cost">
+                            <div class="cost horizontal">
+                                <div class="col-sm-6"><b>Phí vận chuyển</b></div>
+                                <div class="text-right col-sm-6" id="transport-fee"></div>
+                            </div>
+                            <div class="cost horizontal">
+                                <div class="col-sm-6"><b>Thành tiền:</b></div>
+                                <div class="text-right col-sm-6" id="total-cost"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" id="footer-order-detail">
+
+                    </div>
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
 </body>

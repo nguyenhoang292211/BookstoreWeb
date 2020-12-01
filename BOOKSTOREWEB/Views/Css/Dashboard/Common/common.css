@@ -246,3 +246,37 @@ table tbody tr.row-selected {
 }
 
 /*  */
+
+.text-left{
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.div-front {
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    display: none;
+}
+
+.in-div-front {
+    width: 60%;
+    background: #fff;
+    opacity: 1.0;
+    border-radius: 20px;
+    padding: 0 30px 30px 30px;
+    margin: 60px auto;
+    transition: 0.5s;
+}

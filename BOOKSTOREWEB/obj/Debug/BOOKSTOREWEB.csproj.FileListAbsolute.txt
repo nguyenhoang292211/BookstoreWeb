@@ -477,3 +477,4 @@ E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOR
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
+D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
