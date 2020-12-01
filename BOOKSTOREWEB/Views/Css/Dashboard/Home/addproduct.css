@@ -1,0 +1,31 @@
+﻿
+.text-addproduct {
+    padding-bottom:8px;
+}
+
+.block-addproduct{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 20px;
+    float:left;
+}
+
+.input-addproduct{
+    height:230px;
+}
+
+.container-addproduct {
+    width: 500px;
+    float: left;
+}
+
+.img-addproduct{
+    width:125px;
+    height: 140px;
+}
+
+.container-img-addproduct{
+    padding-left:5px;
+    padding-right:5px;
+}
+

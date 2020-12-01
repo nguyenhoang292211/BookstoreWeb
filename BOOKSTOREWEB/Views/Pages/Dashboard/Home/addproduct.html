@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="../../../Css/Dashboard/Common/common.css" rel="stylesheet" />
+    <link href="../../../Css/Dashboard/Home/addproduct.css" rel="stylesheet" />
+    <!--<link href="../../../Css/Dashboard/Home/transport.css" rel="stylesheet" />
+    <link href="../../../Css/Dashboard/Home/order.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="icon" href="../../../Images/iconLogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../../Images/iconLogo.ico" type="image/x-icon" />
+
+    <title>Thêm sản phẩm</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="menu">
+            <div class="logo">
+            </div>
+            <div class="menu-function">
+                <button id="btnOverview">Tổng quan</button>
+                <button id="btnOrderForm">Đơn hàng</button>
+                <div class="function-detail" id="function-detail-order-form">
+                    <button id="btnOrderFormDetail">Chi tiết đơn hàng</button>
+                </div>
+                <button id="btnTransport">Vận chuyển</button>
+                <button id="btnProduct">Sản phẩm</button>
+                <div class="function-detail" id="function-detail-product">
+                    <button id="btnAddProduct">Thêm sản phẩm</button>
+                    <button id="btnProductApproval">Phê duyệt sản phẩm</button>
+                </div>
+                <button id="btnCustomer">Khách hàng</button>
+                <button id="btnPromote">Khuyến mãi</button>
+                <div class="function-detail" id="function-detail-promote">
+                    <button id="btnListProductPromote">Danh sách sản phẩm khuyến mãi</button>
+                    <button id="btnPromoteApproval">Phê duyệt khuyến mãi</button>
+                </div>
+                <button id="btnReport">Báo cáo</button>
+                <button id="btnAccount">Tài khoản</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="header-bar">
+                <div class="title">
+                    <p id="label-title">Thêm sản phẩm</p>
+                </div>
+                <div class="account">
+                    <div class="notify">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="avatar">
+
+                    </div>
+                    <div class="function-account">
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Admin <i class="fas fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right align-drop">
+                                <button class="dropdown-item" type="button">Tài khoản của bạn</button>
+                                <a href="../../Login/signIn.html"><button class="dropdown-item" type="button">Đăng xuất</button></a>
+                                <button class="dropdown-item" type="button">Điều khoản</button>
+                                <button class="dropdown-item" type="button">Chính sách bảo mật</button>
+                                <button class="dropdown-item" type="button">Hỗ trợ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container-addproduct">
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Mã sản phẩm
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="ID" placeholder="Nhập mã sản phẩm" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Tên sản phẩm
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="name" placeholder="Nhập tên sản phẩm" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Thể loại
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="name_type" placeholder="Nhập thể loại sản phẩm" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Tác giả
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="author" placeholder="Nhập tên tác giả" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Giá
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="price" placeholder="Nhập giá sản phẩm" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Số lượng kho
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="number" min="0" name="quantity" placeholder="Nhập số lượng có trong kho" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Nhà xuất bản
+                        </div>
+                        <input class="form-control form-control-sm mr-3 w-75" type="text" name="publisher" placeholder="Nhập tên nhà xuất bản" />
+                    </div>
+                    <div class="block-addproduct">
+                        <div class="text-addproduct">
+                            Mô tả
+                        </div>
+                        <textarea class="form-control form-control-sm mr-3 w-75" name="description" placeholder="Nhập mô tả"></textarea>
+                    </div>
+                </div>
+                <div class="container-addproduct">
+                    <div class="block-addproduct">
+                        <input type="file" class="form-control" id="fileInput" multiple/>
+                        <br />
+                        <div class="container-img-addproduct js-file-list"></div>
+                    </div>
+                </div>
+                <div class="container-addproduct" style="padding-top:10px; padding-left:25px;">
+                    <button type="submit" class="btn btn-primary">Thêm</button>
+                </div>
+            </div>
+        </div>
+        <!--<div class="div-front">
+            <div class="detail-transprot">
+                <div class="icon-close"><i class="far fa-times-circle" id="icon-close"></i></div>
+                <div class="grid" id="gird-transport-detail">
+                    <table border="1" cellpadding=0 id="table-transport" class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Mã sản phẩm</th>
+                                <th scope="col">Tên sản phẩm</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số lượng</th>
+                                <th scope="col">Tổng</th>
+                                <th scope="col">Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>-->
+    </div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../../../Js/DashBoard/Common/common.js" type="text/javascript"></script>
+<script src="../../../Js/Dashboard/Home/order.js" type="text/javascript"></script>
+<script src="../../../Js/DashBoard/Home/addproduct.js" type="text/javascript"></script>
+</html>

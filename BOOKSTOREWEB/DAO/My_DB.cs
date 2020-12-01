@@ -9,7 +9,7 @@ namespace BOOKSTOREWEB.DAO
 {
     public class My_DB
     {
-        public static string severName = "DESKTOP-7ORN27A";
+        public static string severName = "DESKTOP-PU63SO7";
         public static string dataName = "BOOKSTOREWEB";
         private static My_DB instance;
         public static My_DB Instance
