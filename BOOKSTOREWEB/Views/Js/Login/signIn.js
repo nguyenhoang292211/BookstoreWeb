@@ -19,6 +19,11 @@ class LoginJS {
         window.location.href = "signUp.html";
     }
 
+
+    checklogin() {
+        var username = $("#username").val;
+    }
+
     checkLogin()
     {
         var username = $("#txtUsername").val();

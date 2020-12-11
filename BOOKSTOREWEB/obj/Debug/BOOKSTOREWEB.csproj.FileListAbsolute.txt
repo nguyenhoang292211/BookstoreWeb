@@ -397,6 +397,7 @@ D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\ob
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
 D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
+<<<<<<< HEAD
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
 E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
@@ -560,6 +561,8 @@ D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOK
 D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
 D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
 D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
+=======
+>>>>>>> 1f09885... giao dien home
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
@@ -615,7 +618,10 @@ D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
+<<<<<<< HEAD
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\PayPal.dll
+=======
+>>>>>>> 1f09885... giao dien home
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
@@ -625,7 +631,10 @@ D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
+<<<<<<< HEAD
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\PayPal.xml
+=======
+>>>>>>> 1f09885... giao dien home
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
 D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml

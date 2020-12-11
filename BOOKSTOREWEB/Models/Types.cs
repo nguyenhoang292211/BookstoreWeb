@@ -36,7 +36,7 @@ namespace BOOKSTOREWEB.Models
         public Types(DataRow row)
         {
             this.ID = (int)row["id"];
-            this.IDCategory = (int)row["id"];
+            this.IDCategory = (int)row["idCategory"];
             this.Name = row["name"].ToString();
         }
     }

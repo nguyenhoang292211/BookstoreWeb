@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Web;
-
+using BOOKSTOREWEB.DAO;
 namespace BOOKSTOREWEB.Models
 {
     public class Product
@@ -21,6 +21,8 @@ namespace BOOKSTOREWEB.Models
         private string publisher;
         private float rating;
         private int score;
+        private int idvoucher;
+        private Double discount_percent;
 
         public int ID { get => iD; set => iD = value; }
         public int IDShop { get => iDShop; set => iDShop = value; }
@@ -34,6 +36,8 @@ namespace BOOKSTOREWEB.Models
         public string Publisher { get => publisher; set => publisher = value; }
         public float Rating { get => rating; set => rating = value; }
         public int Score { get => score; set => score = value; }
+        public int Idvoucher { get => idvoucher; set => idvoucher = value; }
+        public Double Discount_percent { get => discount_percent; set => discount_percent = value; }
 
         public Product()
         {
@@ -53,7 +57,28 @@ namespace BOOKSTOREWEB.Models
             this.Publisher = publisher;
             this.Rating = rating;
             this.Score = score;
+            this.idvoucher = 0;
+            this.discount_percent = 0;
         }
+
+        public Product(int id, int idType, string name, float price, int quantity, string author, string description, int quantitySold, string publisher, float rating, int score, int idVoucher)
+        {
+            this.ID = id;
+            this.IDType = idType;
+            this.Name = name;
+            this.Price = price;
+            this.Quantity = quantity;
+            this.Author = author;
+            this.Description = description;
+            this.QuantitySold = quantitySold;
+            this.Publisher = publisher;
+            this.Rating = rating;
+            this.Score = score;
+            this.Idvoucher = idvoucher;
+            this.Discount_percent = DataProvider.Instance.ExecuteNonQuery("EXEC USP_GetDiscountvalue @idvoucher ", new Object[] {idvoucher })*10;
+            
+        }
+
 
         /// <summary>
         /// Chuyển dữ liệu từ một hàng trong DataTable thành dữ liệu Product.
@@ -72,6 +97,9 @@ namespace BOOKSTOREWEB.Models
             this.Publisher = row["publisher"].ToString();
             this.Rating = float.Parse(row["rating"].ToString());
             this.Score = (int)row["score"];
+            this.Idvoucher = (int)row["idVoucher"];
+            this.Discount_percent = DataProvider.Instance.ExecuteNonQuery("EXEC USP_GetDiscountvalue @idvoucher ", new Object[] { idvoucher }) * 100;
+
         }
     }
 }

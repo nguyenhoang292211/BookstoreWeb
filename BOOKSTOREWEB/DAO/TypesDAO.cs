@@ -42,6 +42,43 @@ namespace BOOKSTOREWEB.DAO
             return types;
         }
 
+        public DataTable GetTableTypes()
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("getTop5typeBook");
+            return data;
+            //DataTable datafilter = new DataTable();
+            //if (data.Rows.Count >= 5)
+            //{
+            //    DataRow[] rowArray = data.Select("Top 5");
+            //    foreach (DataRow row in rowArray)
+            //    {
+            //        datafilter.ImportRow(row);
+            //    }
+            //    return datafilter;
+            //}
+            //else
+            //    if (data.Rows.Count > 0)
+            //         return data; 
+           /* if (data.Rows.Count >= 5)
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    DataRow b = data.Rows[i] as DataRow;
+                    DataRow a = datafilter.NewRow();
+                    a["id"] = b["id"];
+                    a["idCategory"] = b["idCategory"];
+                    a["name"] = b["name"];
+                    datafilter.Rows.Add(a);
+                }
+                return datafilter;
+            }
+            else
+            if (data.Rows.Count > 0)
+                return data;*/
+            return null;
+        }
+
+
         /// <summary>
         /// Thêm một loại type mới vào trong Database.
         /// </summary>

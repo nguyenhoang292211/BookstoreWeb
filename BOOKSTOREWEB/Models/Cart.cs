@@ -28,7 +28,7 @@ namespace BOOKSTOREWEB.Models
         {
             this.IDCustomer = idCustomer;
             this.IDProduct = idProduct;
-            this.iDShop = idShop;
+            this.IDShop = idShop;
             this.Quantity = quantity;
         }
 

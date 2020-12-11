@@ -22,7 +22,7 @@ namespace BOOKSTOREWEB.DAO
             private set { instance = value; }
         }
 
-        private DataProvider() { }
+        public DataProvider() { }
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
@@ -54,6 +54,7 @@ namespace BOOKSTOREWEB.DAO
             int data = 0;
             using (SqlCommand command = new SqlCommand(query, My_DB.Instance.getConnection))
             {
+                command.CommandTimeout = 0;
                 My_DB.Instance.openConnection();
                 if (parameter != null)
                 {

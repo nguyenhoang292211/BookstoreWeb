@@ -5,7 +5,7 @@
     window.completionRate = 1;
 });
 
-function changeState(self) {
+function (self) {
     window.transportJS.updateOrderStateByIdBill(self.id.replace("select-", ""), self.value);
     if (!window.resultUpdateOrderState)
         return;

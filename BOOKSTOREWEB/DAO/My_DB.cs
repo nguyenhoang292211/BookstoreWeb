@@ -9,7 +9,11 @@ namespace BOOKSTOREWEB.DAO
 {
     public class My_DB
     {
+<<<<<<< HEAD
         public static string severName = "DESKTOP-PU63SO7";
+=======
+        public static string severName = "DESKTOP-S3G5KIT\\SQLEXPRESS";
+>>>>>>> 1f09885... giao dien home
         public static string dataName = "BOOKSTOREWEB";
         private static My_DB instance;
         public static My_DB Instance
@@ -25,7 +29,7 @@ namespace BOOKSTOREWEB.DAO
 
         private My_DB() { }
 
-        private static string strconn = @"Data Source=" + severName + ";Initial Catalog=" + dataName + ";Integrated Security=True";
+        private static string strconn = @"Data Source=" + severName + ";Initial Catalog=" + dataName + ";Integrated Security=True ;MultipleActiveResultSets=True";
 
         private SqlConnection con = new SqlConnection(strconn);
 
