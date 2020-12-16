@@ -1,5 +1,6 @@
 ﻿using BOOKSTOREWEB.DAO;
 using BOOKSTOREWEB.Models;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,11 +9,12 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Mail;
 using System.Web.Http;
+using Microsoft.AspNetCore.Session;
 using System.Web.Http.Results;
 
 namespace BOOKSTOREWEB.Controllers
 {
-    [RoutePrefix("api/Account")] // Dùng để định danh đường dẫn api (có thể không cần dùng tới)
+    [System.Web.Http.RoutePrefix("api/Account")] // Dùng để định danh đường dẫn api (có thể không cần dùng tới)
     public class AccountController : ApiController
     {
         /// <summary> 
@@ -22,11 +24,9 @@ namespace BOOKSTOREWEB.Controllers
 
 
         [HttpGet] // Dùng để định danh phương thức API. (Có thể không có)
-        // GET: Có thể nhận các giá trị nguyên thủy (int, string, ...) và giá trị phức tạp (class, ...) và không thể truyền qua Request Body.
         [Route("accounts")] //Thêm vào đường dẫn API để lấy chính xác hàm GET mong muốn (Hàm đó bắt buộc phải viết bên dưới dòng này.
-        // GET: api/Account/5
         public List<Account> Get() //Có thể đặt tên khác. Ví dụ như GetListAccount() -- nếu k có [HttpGet] ở trên thì phải có từ Get đầu tên của hàm.
-            // Nếu đã có phương thức [HttpGet] ở trên thì có thể đặt tên tùy ý.
+                                   // Nếu đã có phương thức [HttpGet] ở trên thì có thể đặt tên tùy ý.
         {
             return AccountDAO.Instance.GetAccounts();
         }
@@ -37,7 +37,20 @@ namespace BOOKSTOREWEB.Controllers
         // GET: api/Account/5
         public int Get(string userName, string passWord)
         {
-            return AccountDAO.Instance.GetPremission(userName, passWord);
+            //lưu thôn tin tài khoản nếu là khác hàng vào trong session
+            int result = AccountDAO.Instance.GetPremission(userName, passWord);
+              
+            return result;
+        }
+
+        //LấY Id người dùng
+        [HttpGet]
+        [Route("getIdUser/{userName}")]
+        public int GetCustomer(string userName)
+        {
+            int t = AccountDAO.Instance.GetAccount(userName).ID;
+            return t;
+
         }
 
         [HttpGet]
@@ -95,4 +108,6 @@ namespace BOOKSTOREWEB.Controllers
             return AccountDAO.Instance.DeleteAccount(userName);
         }
     }
+
+   
 }

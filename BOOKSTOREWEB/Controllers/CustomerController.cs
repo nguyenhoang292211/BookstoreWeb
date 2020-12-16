@@ -67,5 +67,12 @@ namespace BOOKSTOREWEB.Controllers
         public void Delete(int id)
         {
         }
+
+        [HttpGet]
+        [Route("getCustomerInfo/{idAcc}")]
+        public Customer GetCustomerInfo (int idAcc)
+        {
+            return CustomerDAO.Instance.GetCustomer(idAcc);
+        }
     }
 }

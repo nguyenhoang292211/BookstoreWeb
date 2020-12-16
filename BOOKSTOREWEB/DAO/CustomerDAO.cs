@@ -86,5 +86,17 @@ namespace BOOKSTOREWEB.DAO
             }
             return result;
         }
+
+        public Customer GetCustomer(int idAccount)
+        {
+            string query = "select * from dbo.Customer where idAccount = @idAccount ";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { idAccount });
+            if (data.Rows.Count > 0)
+                return new Customer(data.Rows[0]);
+            else
+                return null;
+        }
+
+
     }
 }

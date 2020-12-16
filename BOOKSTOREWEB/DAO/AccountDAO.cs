@@ -157,5 +157,19 @@ namespace BOOKSTOREWEB.DAO
             int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { password, email });
             return result > 0;
         }
+
+        /// <summary>
+        /// Lấy account bằng username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
+        public Account GetAccount(string username)
+        {
+
+            DataTable data = DataProvider.Instance.ExecuteQuery("select * from Account where userName= @userName", new object[] { username });
+            if (data.Rows.Count > 0)
+               return  new Account(data.Rows[0]);
+            return null;
+        }
     }
 }

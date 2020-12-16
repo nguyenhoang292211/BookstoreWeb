@@ -21,7 +21,7 @@ namespace BOOKSTOREWEB.DAO
             private set { instance = value; }
         }
 
-        private CategoryDAO()
+        public CategoryDAO()
         {
 
         }

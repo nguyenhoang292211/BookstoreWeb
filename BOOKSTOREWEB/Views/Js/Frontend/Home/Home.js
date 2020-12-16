@@ -19,12 +19,6 @@ function openTab(evt, idelement, content, type) {
     document.getElementById(idelement).style.background = "Blue";
 }
 
-function GotoCard() {
-    if(window)
-}
-
-
-
 $(document).ready(function () {
     var productJS = new ProductJS();
     window.customer = null;
@@ -50,7 +44,8 @@ class ProductJS {
        // alert("đang load event");
        // self.getListTypebook();
         // self.getListHotDealbook();
-        self.gettheBestsaler();
+     //   self.gettheBestsaler();
+        self.getCategory();
     }
 
     checkquantity(idpro, idCus) {
@@ -65,8 +60,9 @@ class ProductJS {
             },
             dataType: "", //Kiểu dữ liệu truyền lên.
         }).done(function (response) {
-            alert("Alert trong checkquan " + response);
+
             this.Amountproductincart = response;
+
         }).fail(function (response) {
             alert("khong check quantity được");
         });
@@ -84,7 +80,8 @@ class ProductJS {
                                     <img src="../../../Images/Frontend/Home/product-1.jpg" class="img-fluid" alt="">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
-                                            <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                              <a class="id-PRO" style="display:block;">`+ item.ID +`</>
+                                            <a style="color:white;" class="link-product-add-cart">Quick View</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +90,7 @@ class ProductJS {
                                         <div class="grid_meta">
                                             <div class="product_price">
                                                 <h4>
-                                                    <a href="single.html">`+ item.Name + `</a>
+                                                    <a style="font-size:14px ;">`+ item.Name + `</a>
                                                 </h4>
                                                 <div class="grid-price mt-2">
                                                     <span class="money ">`+ item.Price + `</span>
@@ -103,27 +100,27 @@ class ProductJS {
            
                      
                                                <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <i class="fa fa-star" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <i class="fa fa-star" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <i class="fa fa-star" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <i class="fa fa-star" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <i class="fa fa-star-half-o" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
@@ -139,8 +136,7 @@ class ProductJS {
                                                     <button type="submit" class="googles-cart pgoogles-cart">
                                                         <i class="fas fa-cart-plus"></i>
                                                     </button>
-                                            </form>
-
+                                                 </form>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>
@@ -156,7 +152,6 @@ class ProductJS {
         //tạo sự kiện cho button add to cart
        
         var buttonaddtocart = document.getElementsByClassName("googles-cart");
-        alert(buttonaddtocart.length);
         for (var i = 0; i < buttonaddtocart.length; i++) {
             var add = buttonaddtocart[i];
             add.onclick= function (event) {
@@ -165,17 +160,25 @@ class ProductJS {
                 var idpro = product.getElementsByClassName("id-PRO")[0].innerHTML;
                 var idcus = 3;
                 var idshop = 1;
-                alert(idpro);
                //THÊM VÀO GIỎ HÀNG
                window.productJS.HandleCart(idcus, idpro, idshop);
                return false;
             };
-        }      
+        }   
+
+        var viewDetail = document.getElementsByClassName("inner-men-cart-pro");
+        for (var i = 0; i < viewDetail.length; i++) {
+            var button = viewDetail[i];
+            button.onclick = function (event) {
+                var t = event.target;
+                    // Store
+                window.location.href = "DetailProductPage.html?ID=" + t.parentElement.getElementsByClassName("id-PRO")[0].innerText;
+               // idproduct.innerText = (t.parentElement.getElementsByClassName("id-PRO")[0]).innerText;
+              //  window.location.href = "DetailProductPage.html";
+            };
+        }
     }
 
-    loadcart() {
-
-    }
 
     loadListHotdeal(response) {
         $("#autoWidth").empty();
@@ -255,8 +258,7 @@ class ProductJS {
             dataType: "json", //Kiểu dữ liệu truyền lên.
         }).done(function (response) {
             self.loadtheBestsaler(response);
-            alert("load xong");
-            }).fail(function (response) {
+        }).fail(function (response) {
                 console.log(response);
             alert("Lỗi load sản phẩm");
         });
@@ -355,7 +357,95 @@ class ProductJS {
         });
     }
 
-   
+    getTypeProductWithCate(idCate,count) {
+        var URL = "/api/Category/type/" + idCate;
+        $.ajax({
+            url: URL,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "", //Kiểu dữ liệu truyền lên.
+        }).done(function (products) {
+            var ul = document.createElement("ul");
+            $.each(products, function (index, item) {
+               
+
+                var li = document.createElement("li");
+                li.setAttribute("class", "media-mini mt-3");
+
+                var a = document.createElement("a");
+                
+                var text = document.createTextNode(item.Name);
+                a.setAttribute("href", "ProductPage.html?type=" + item.ID);
+             
+                a.appendChild(text);
+                li.appendChild(a);
+                ul.appendChild(li);
+
+               
+            });
+            var container = document.getElementsByClassName("col-md-4 media-list span4 text-left")[count];
+            container.appendChild(ul);
+            
+
+
+        }).fail(function () {
+
+        });
+    }
+
+
+    loadCategory(listcategory) {
+        self = this;
+        $('#nav-category').empty();
+        var container = document.getElementById("nav-category");
+        $.each(listcategory, function (index, item) {
+            
+
+            var divcontaint = document.createElement("div");
+            divcontaint.setAttribute("class", "col-md-4 media-list span4 text-left");
+            
+
+            var h5titleCate = document.createElement("h5");
+            h5titleCate.setAttribute("class", "tittle-w3layouts-sub");
+            var content = document.createTextNode(item.Name);
+
+            h5titleCate.appendChild(content);
+
+            divcontaint.appendChild(h5titleCate);
+
+            container.appendChild(divcontaint);
+
+            self.getTypeProductWithCate(item.ID, index);
+        });
+
+    }
+
+    //Load category trên thanh narbar
+    getCategory() {
+        self = this;
+        var URL = "";
+        $.ajax({
+            url: "/api/Category/type",
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "json", //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            self.loadCategory(response);
+            self.gettheBestsaler();
+
+        }).fail(function (response) {
+            alert("Lỗi category");
+        });
+    }
+
+
+
 
     //Thêm sản phẩm vào giỏ
     HandleCart(idcus, idproduct, idshop) {
@@ -383,10 +473,6 @@ class ProductJS {
         }).fail(function (response) {
             alert("Hiện tại hệ thống đang gặp sự cố, vui lòng thử lại sau! Cảm ơn quý khách đã tin dùng sản phẩm của chúng tôi!");
         });
-
-    }
-
-    gotoDetailProduct() {
 
     }
 

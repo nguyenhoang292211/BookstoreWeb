@@ -46,6 +46,20 @@ namespace BOOKSTOREWEB.Controllers
         }
 
         [HttpGet]
+        [Route("getNameType/{typeID}")]
+        public string GetNameType (int typeID)
+        {
+            return TypesDAO.Instance.getNameType(typeID);
+        }
+
+        [HttpGet]
+        [Route("getproduct/{typeID}")]
+        public List<Product> GetProductbyTypeID(int typeID)
+        {
+            return ProductDAO.Instance.GetProductWithType(typeID);
+        }
+
+        [HttpGet]
         [Route("listallHotdeal")]
         public List<Product> GetProductbyHotdeal()
         {
@@ -88,5 +102,61 @@ namespace BOOKSTOREWEB.Controllers
         {
             return CartDAO.Instance.UpdateCart(idCus, idPro, quantity);
         }
+
+
+        //Thao get all Product
+        [HttpGet]
+        [Route("listProduct")]
+        public DataTable Get()
+        {
+            return ProductDAO.Instance.GetListProduct();
+        }
+        //Get listproduct of Customer
+        [HttpGet]
+        [Route("listProduct/{idCus}")]
+        public DataTable GetListBookByIDCus(int idCus)
+        {
+            return ProductDAO.Instance.GetProductByIdCus(idCus);
+        }
+        //Lấy thông sản phẩm theo id
+        [HttpGet]
+        [Route("detailProduct/{idPro}")]
+        public DataTable GetDetailProduct(int idPro)
+        {
+            return ProductDAO.Instance.GetDetailProduct(idPro);
+        }
+        //Lấy các bình luận của một sản phẩm cụ thể
+        [HttpGet]
+        [Route("comment/{idPro}")]
+        public DataTable GetCommentOfProduct(int idPro)
+        {
+            return ProductDAO.Instance.GetCommentOfProduct(idPro);
+        }
+        //Lấy số lượng sản phẩm trong giỏ hàng
+        [HttpGet]
+        [Route("quantityOfInCart/{idCus}")]
+        public int GetQuantityInCArt(int idCus)
+        {
+            return ProductDAO.Instance.GetQuantityInCart(idCus);
+        }
+
+        //Lưu vào giỏ hàng của khách hàng
+        [HttpPost]
+        [Route("createOrder/{idCus}/{idPro}/{quantity}")]
+        public bool CreateOrder(int idCus, int idPro, int quantity)
+        {
+            return ProductDAO.Instance.SaveInCart(idCus, idPro, quantity);
+        }
+        // POST: api/Product
+        //Thao-POST:ap/product/createComment
+        [HttpPost]
+        [Route("createComment")]
+        public bool SaveComment([FromBody] Comment com)
+        {
+            return ProductDAO.Instance.SaveComment(com);
+        }
+
+
+        // End Thao API
     }
 }

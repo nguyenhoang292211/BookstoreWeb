@@ -27,7 +27,8 @@ namespace BOOKSTOREWEB.DAO
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
-            using (SqlCommand command = new SqlCommand(query, My_DB.Instance.getConnection))
+            My_DB a = new My_DB();
+            using (SqlCommand command = new SqlCommand(query,a.getConnection))
             {
                 My_DB.Instance.openConnection();
                 if (parameter != null)
@@ -45,7 +46,7 @@ namespace BOOKSTOREWEB.DAO
                 }
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 adapter.Fill(data);
-                My_DB.Instance.closeConnection();
+               a.closeConnection();
             }
             return data;
         }

@@ -32,7 +32,7 @@ namespace BOOKSTOREWEB.Models
             this.ID = int.Parse(row["iD"].ToString());
             this.UserName = row["userName"].ToString();
             this.PassWord = row["passWord"].ToString();
-            this.IDPermission = (int)row["iDPermission"];
+            this.IDPermission = (int)row["idPermission"];
         }
 
         public Account(int iD, string userName, string passWord, int iDAiDPermissionccessRight)

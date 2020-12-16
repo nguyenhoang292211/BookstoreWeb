@@ -72,11 +72,53 @@ class LoginJS {
                 case 1: alert("Bạn là admin!"); break;
                 case 2: alert("Bạn là nhân viên!"); break;
                 case 3: alert("Bạn là nhân viên giao hàng!"); break;
-                case 4: alert("Bạn là khách hàng!"); break;
+                case 4:                   
+                    $.ajax({
+                        url: "/api/account/getIdUser/" + userName,
+                        method: "GET",
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json' //Định nghĩa type data trả về.
+                        },
+                        dataType: "", //Kiểu dữ liệu truyền lên.
+                    }).done(function (response) {
+                        alert("Vòa ok");
+                        if (parseInt(response) > 0) {
+                            sessionStorage.setItem("inforCus", parseInt(response));
+                            alert(sessionStorage.getItem("inforCus"));
+                            window.location.href = "../Frontend/Home/CartPage.html";
+
+                        }
+                        else alert(parseInt(response));
+
+                    }).fail(function (response) {
+                        alert("Đăng nhập thất bại");
+                    });
+                    
+                    break;
                 default: alert("Bạn là đối tượng chưa được xác định");
             }
         }).fail(function (response) {
             alert("Hiện tại hệ thống đang gặp sự cố, vui lòng thử lại sau! Cảm ơn quý khách đã tin dùng sản phẩm của chúng tôi!");
+        });
+    }
+
+    getIdAcount(username) {
+        $.ajax({
+            url: "/api/account/getUser/" + userName,
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' //Định nghĩa type data trả về.
+            },
+            dataType: "int", //Kiểu dữ liệu truyền lên.
+        }).done(function (response) {
+            if (response > 0)
+                sessionStorage.setItem("inforCus", response);
+            else alert("Ko phải khách hàng");
+
+        }).fail(function (response) {
+                alert("Đăng nhập thất bại");
         });
     }
 

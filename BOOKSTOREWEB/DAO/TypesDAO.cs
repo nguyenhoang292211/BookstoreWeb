@@ -21,11 +21,12 @@ namespace BOOKSTOREWEB.DAO
             private set { instance = value; }
         }
         
-        private TypesDAO()
+        public TypesDAO()
         {
 
         }
 
+  
         /// <summary>
         /// Lấy danh sách Types dưới dạng danh sách class Types.
         /// </summary>
@@ -46,36 +47,7 @@ namespace BOOKSTOREWEB.DAO
         {
             DataTable data = DataProvider.Instance.ExecuteQuery("getTop5typeBook");
             return data;
-            //DataTable datafilter = new DataTable();
-            //if (data.Rows.Count >= 5)
-            //{
-            //    DataRow[] rowArray = data.Select("Top 5");
-            //    foreach (DataRow row in rowArray)
-            //    {
-            //        datafilter.ImportRow(row);
-            //    }
-            //    return datafilter;
-            //}
-            //else
-            //    if (data.Rows.Count > 0)
-            //         return data; 
-           /* if (data.Rows.Count >= 5)
-            {
-                for (int i = 0; i < 5; i++)
-                {
-                    DataRow b = data.Rows[i] as DataRow;
-                    DataRow a = datafilter.NewRow();
-                    a["id"] = b["id"];
-                    a["idCategory"] = b["idCategory"];
-                    a["name"] = b["name"];
-                    datafilter.Rows.Add(a);
-                }
-                return datafilter;
-            }
-            else
-            if (data.Rows.Count > 0)
-                return data;*/
-            return null;
+            
         }
 
 
@@ -125,6 +97,31 @@ namespace BOOKSTOREWEB.DAO
             string query = "SELECT id, name FROM Types WHERE idCategory = @idCategory ORDER BY id";
             DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { idCategory });
             return data;
+        }
+
+        public List<Types> GetTypesByIDCategory1(int idCategory)
+        {
+            string query = "SELECT id, idCategory , name FROM Types WHERE idCategory = @idCategory ORDER BY id";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { idCategory });
+            if (data.Rows.Count == 0) return null;
+            List<Types> list = new List<Types>();
+           
+            foreach(DataRow row in data.Rows)
+            {
+                Types a = new Types(row);
+                list.Add(a);
+
+            }
+            return list;
+        }
+
+        public string getNameType (int idType)
+        {
+            string query = "SELECT name FROM Types WHERE id = @id ";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { idType });
+            if (data.Rows.Count == 0) return "None";
+
+            return data.Rows[0][0].ToString();
         }
     }
 }

@@ -16,6 +16,10 @@
     z-index: 1
 }
 
+.product-men women_two bot-gd{
+    width:300px;
+}
+
 .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -57,7 +61,8 @@
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 100%
+    width: 70%
+   
 }
 
 .owl-carousel .owl-dots.disabled,
