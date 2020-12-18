@@ -1,7 +1,9 @@
 ﻿using BOOKSTOREWEB.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -50,7 +52,130 @@ namespace BOOKSTOREWEB.DAO
             int result = data.ExecuteNonQuery(query, new object[] { idCus, idPro, quantity });
             return result > 0;
         }
+        //Thao Procedure
+        //Pro_GUI_Thao: Lấy các sản phẩm trong giỏ hàng của một khách hàng cụ thể
+        public DataTable GetCartByIdCus(int idCus)
+        {
+            DataTable data;
+            // DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetListProductByIDCus @idCus ", new object[] { idCus });
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                data = mydb.ExecuteQueryDataSet("USP_GetListProductByIDCus", CommandType.StoredProcedure, new List<SqlParameter>() { new SqlParameter("@idCus", idCus) });
+            }
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
 
+        //Pro_GUI_Thao: Lấy thông tin giao hàng của một khách hàng
+        public DataTable GetInfoCustomer(int idCus)
+        {
+            //  DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetInfoCustomer @idCus ", new object[] { idCus });
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                data = mydb.ExecuteQueryDataSet("USP_GetInfoCustomer", CommandType.StoredProcedure, new List<SqlParameter>() { new SqlParameter("@idCus", idCus) });
+            }
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+        //Pro_GUI_Thao: Lấy các đơn vị vận chuyển 
+
+        public DataTable GetDelivery()
+        {
+            // DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetDelivery ");
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                data = mydb.ExecuteQueryDataSet("USP_GetDelivery ", CommandType.StoredProcedure);
+            }
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+
+        public bool SaveComment(Comment comt)
+        {
+
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { comt.IDCustomer, comt.IDProduct, comt.IDShop, comt.Content, comt.Rating }, new string[] { "@idCus", "@idPro", "@idShop", "@content", "@rating" });
+                data = mydb.ExecuteQueryDataSet("USP_commentInProduct", CommandType.StoredProcedure, para);
+            }
+            return true;
+        }
+        //Pro_GUI_Thao: Cộng (1) sản phẩm khi click Plus button
+        public bool PlusAProduct(int idCus, int idPro)
+        {
+
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { idCus, idPro }, new string[] { "@idCus", "@idPro" });
+                data = mydb.ExecuteQueryDataSet("USP_PlusAProduct", CommandType.StoredProcedure, para);
+            }
+            return true;
+        }
+        //Pro_GUI_Thao: Trừ (1) sản phẩm khi click Minus button
+        public bool MinusAProduct(int idCus, int idPro)
+        {
+
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { idCus, idPro }, new string[] { "@idCus", "@idPro" });
+                data = mydb.ExecuteQueryDataSet("USP_MinusAProduct", CommandType.StoredProcedure, para);
+            }
+            return true;
+        }
+        //Pro_GUI_Thao: Xóa sản phẩm ra khỏi giỏ hàng 
+        public bool DeleteOutCart(int idCus, int idPro)
+        {
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { idCus, idPro }, new string[] { "@idCus", "@idPro" });
+                data = mydb.ExecuteQueryDataSet("USP_DeleteProductCart", CommandType.StoredProcedure, para);
+            }
+            return true;
+        }
+        //Pro_GUI_Thao: Lấy fee ship của đơn vị vận chuyển được chọn
+        public DataTable GetFeeShip(int idDel)
+        {
+
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+
+                data = mydb.ExecuteQueryDataSet("USP_GetFeeShipping", CommandType.StoredProcedure, new List<SqlParameter>() { new SqlParameter("@idDel", idDel) });
+            }
+            return data;
+        }
+
+
+        //Pro_GUI_Thao: Cập nhật đơn hàng thanh toán
+
+        public bool CreateNewBill(int idCus, int idDel, int idPay, int idVou,
+                                    string add, string phone, double feeShip, double totalCost)
+        {
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { idCus, idDel, idPay, idVou, add, phone, feeShip, totalCost },
+                    new string[] { "@idCus", "@idDelivery", "@idPayment", "@idVoucher", "@address", "@phone", "@feeShip", "@totalCost" });
+                return mydb.MyExecuteNonQuery("USP_create_Bill", CommandType.StoredProcedure, para);
+            }
+            //  return result>0;
+        }
 
     }
 }

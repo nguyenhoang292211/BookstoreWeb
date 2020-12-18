@@ -538,11 +538,14 @@
     <Content Include="Views\Js\Dashboard\Home\transport.js" />
     <Content Include="Views\Js\Dashboard\Home\voucher.js" />
     <Content Include="Views\Js\Frontend\Cart.js" />
+    <Content Include="Views\Js\Frontend\CheckoutPayment.js" />
     <Content Include="Views\Js\Frontend\DetailProduct.js" />
     <Content Include="Views\Js\Frontend\Home\bootstrap.js" />
+    <Content Include="Views\Js\Frontend\Home\Checkout.js" />
     <Content Include="Views\Js\Frontend\Home\classie-search.js" />
     <Content Include="Views\Js\Frontend\Home\creditly.js" />
     <Content Include="Views\Js\Frontend\Home\demo1-search.js" />
+    <Content Include="Views\Js\Frontend\Home\DetailProduct.js" />
     <Content Include="Views\Js\Frontend\Home\easing.js" />
     <Content Include="Views\Js\Frontend\Home\easy-responsive-tabs.js" />
     <Content Include="Views\Js\Frontend\Home\imagezoom.js" />
@@ -576,6 +579,7 @@
     <Content Include="Views\Pages\Dashboard\Home\transport.html" />
     <Content Include="Views\Pages\Dashboard\Home\voucher.html" />
     <Content Include="Views\Pages\Frontend\Home\CartPage.html" />
+    <Content Include="Views\Pages\Frontend\Home\Checkout.html" />
     <Content Include="Views\Pages\Frontend\Home\DetailProductPage.html" />
     <Content Include="Views\Pages\Frontend\Home\HomePage.html" />
     <Content Include="Views\Pages\Frontend\Home\ProductPage.html" />
@@ -592,6 +596,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BillController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\ProductController.cs" />

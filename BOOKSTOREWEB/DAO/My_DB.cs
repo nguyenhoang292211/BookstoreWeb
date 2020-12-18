@@ -10,7 +10,7 @@ namespace BOOKSTOREWEB.DAO
     public class My_DB
     {
 
-        public static string severName = "DESKTOP-S3G5KIT\\SQLEXPRESS";
+        public static string severName = "DESKTOP-VQRDFSM";
         public static string dataName = "BOOKSTOREWEB";
         private static My_DB instance;
         public static My_DB Instance

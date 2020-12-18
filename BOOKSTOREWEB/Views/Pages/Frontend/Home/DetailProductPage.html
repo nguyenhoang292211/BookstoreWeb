@@ -69,7 +69,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <!-- <form action="#" method="post" class="last">-->
                             <input type="hidden" name="cmd" value="_cart">
                             <input type="hidden" name="display" value="1">
-                            <button class="top_googles_cart" type="submit" name="submit" value="">
+                            <button id="goCheckout" class="top_googles_cart" type="submit" name="submit" value="">
                                 My Cart <span id="span-Number"></span>
                                 <i class="fas fa-cart-arrow-down"></i>
                             </button>
@@ -331,14 +331,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="flexslider1">
 
                                 <ul class="slides">
-                                    <li data-thumb="../../../Css/Frontend/Home/product-1.jpg    ">
-                                        <div class="thumb-image"> <img src="../../../Css/Frontend/Home/product-1.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
+                                    <li data-thumb="../../../Images/Frontend/Home/product-1.jpg">
+                                        <div class="thumb-image"> <img src="../../../Images/Frontend/Home/product-1.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
                                     </li>
-                                    <li data-thumb="../../../Css/Frontend/Home/product-1.jpg">
-                                        <div class="thumb-image"> <img src="../../../Css/Frontend/Home/product-1.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
+                                    <li data-thumb="../../../Images/Frontend/Home/product-2.jpg">
+                                        <div class="thumb-image"> <img src="../../../Images/Frontend/Home/product-2.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
                                     </li>
-                                    <li data-thumb="../../../Css/Frontend/Home/product-1.jpg">
-                                        <div class="thumb-image"> <img src="../../../Css/Frontend/Home/product-1.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
+                                    <li data-thumb="../../../Images/Frontend/Home/product-5.jpg">
+                                        <div class="thumb-image"> <img src="../../../Images/Frontend/Home/product-5.jpg" data-imagezoom="true" class="img-fluid" alt=" "> </div>
                                     </li>
                                 </ul>
                                 <div class="clearfix"></div>
@@ -352,18 +352,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <!--<del>$1,199</del>-->
                         </p>
                         <!--<div class="rating1">
-                            <ul class="stars">
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>-->
+        <ul class="stars">
+            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>-->
                         <div id="detailproduct-rating" class="rating1">
 
                         </div>
-
+                        <div class="clearfix"> </div>
                         <div class="color-quality">
                             <div class="color-quality-right">
                                 <h5>Quality :</h5>
@@ -399,6 +399,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <!-- </form> -->
 
                             </div>
+                            <div class="clearfix"></div>
+                            <p></p>
+                            <h5 id="pro_manufac"><span>Manufacturer by :</span></h5>
+                            <h5 id="pro_author"><span>Write (or translate) by : </span></h5>
+                            <div class="clearfix"></div>
+                            <p>Thời gian giao hàng</p>
+                            <h6>
+                                Giao và nhận trong vòng 3 ngày kẻ từ thời điểm mua hàng. </h6>
+                             <h6>   Đảm bảo chất lượng dịch vụ
+                            </h6>
+                            <div class="clearfix"></div>
                         </div>
                         <!-- End Cart-->
                         <ul class="footer-social text-left mt-lg-4 mt-3">
@@ -450,14 +461,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <p id="p1-description">
 
                                         </p>
+                                        <p></p>
+                                        <h6>
+                                            Chính sách đổi trả và cam kết chất lượng
+                                        </h6>
+                                        <p>
+                                            Tại BookStore, chúng tôi trân trọng sự tin tưởng của khách hàng khi đặt mua sản phẩm. Chính sách hậu mãi ở Tiki được xây dựng dựa trên cam kết bảo vệ quyền lợi người tiêu dùng để quý khách có thể yên tâm mua sắm và trải nghiệm dịch vụ tại BookStore.
+
+                                            Chính sách đổi trả hàng tại BookStore
+
+                                            BookStore đảm bảo sản phẩm được bán tại BookStore là sản phẩm mới và 100% chính hãng. Trong trường hợp hiếm hoi sản phẩm quý khách nhận được có khiếm khuyết, hư hỏng hoặc không như mô tả, Tiki cam kết bảo vệ khách hàng bằng chính sách đổi trả và bảo hành tại đây.
+
+
+                                        </p>
+                                        <p>
+                                            Đối với các sản phẩm bánh trung thu, nếu có phát sinh lỗi, quý khách vui lòng liên hệ BookStore Care trong vòng 3 ngày kể từ khi nhận hàng thành công để được hỗ trợ tốt nhất.
+
+                                            *Chính sách này áp dụng cho hầu hết các sản phẩm ở BookStore, ngoại trừ:
+
+                                            Đơn hàng có sản phẩm yêu cầu đổi – trả do lỗi ngoại quan nhưng đã có biên bản đồng kiểm giữa bên vận chuyển và khách hàng.
+                                            Sản phẩm nằm trong danh mục hạn chế đổi trả sau đây.
+                                            Lưu ý: Để đảm bảo quyền lợi khách hàng và BookStore có cơ sở làm việc với các bộ phận liên quan, tất cả yêu cầu đổi/ trả/ bảo hành quý khách cần cung cấp hình ảnh/clip sản phẩm lỗi. BookStore xin phép từ chối khi chưa nhận đủ thông tin hình ảnh từ quý khách.
+                                        </p>
                                     </div>
                                 </div>
                                 <!--//tab_one-->
                                 <div class="tab2">
 
-                                    <div id="bootstrap-tab-text-grid" class="single_page">
-                                        <!--<div class="bootstrap-tab-text-grids">-->
-                                        <!--<div class="bootstrap-tab-text-grid">-->
+                                    <div  class="single_page">
+                                        <div class="bootstrap-tab-text-grids">
+                                        <div id="bootstrap-tab-text-grid" class="bootstrap-tab-text-grid">
                                         <!--<div class="bootstrap-tab-text-grid-left">
                                             <img src="images/team1.jpg" alt=" " class="img-fluid">
                                         </div>-->
@@ -471,8 +504,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                 commodi consequatur? Quis autem vel eum iure reprehenderit.
                                             </p>
                                         </div>-->
-                                        <!--<div class="clearfix"> </div>
-                                        </div>-->
+                                            </div>
+                                        
+                                        <div class="clearfix"> </div>
+                                        <!--</div>-->
                                         <div class="add-review">
                                             <h4>add a review</h4>
                                             <!--  <form action="#" method="post"> -->

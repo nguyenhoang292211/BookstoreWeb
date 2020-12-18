@@ -64,13 +64,13 @@ td.invert-image a img {
 .close1,
 .close2,
 .close3 {
-	background: url('../images/close_1.jpg') no-repeat 0px 0px;
-    cursor: pointer;
-    width: 41px;
-    height: 39px;
-    position: absolute;
-    right: 6px;
-    top: -23px;
+	background: url('../../../Images/Frontend/Home/close_1.jpg') no-repeat 0px 0px;
+	cursor: pointer;
+	width: 41px;
+	height: 39px;
+	position: absolute;
+	right: 6px;
+	top: -23px;
 	-webkit-transition: color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out;
 	-o-transition: color 0.2s ease-in-out;

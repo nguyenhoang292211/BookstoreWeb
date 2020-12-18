@@ -24,8 +24,8 @@ $(document).ready(function () {
     window.customer = null;
     window.productJS = productJS;
     //số lượng một sản phẩm bất kì trong cart 
- 
 
+    alert("hhh");
 })
 
 
@@ -44,7 +44,7 @@ class ProductJS {
        // alert("đang load event");
        // self.getListTypebook();
         // self.getListHotDealbook();
-     //   self.gettheBestsaler();
+      self.gettheBestsaler();
         self.getCategory();
     }
 
@@ -149,6 +149,8 @@ class ProductJS {
             //$('.grid tbody').prepend(trHTML);// chen tren
 
         });
+
+        alert("vô ròi");
         //tạo sự kiện cho button add to cart
        
         var buttonaddtocart = document.getElementsByClassName("googles-cart");
@@ -258,6 +260,7 @@ class ProductJS {
             dataType: "json", //Kiểu dữ liệu truyền lên.
         }).done(function (response) {
             self.loadtheBestsaler(response);
+            alert("sfsdfsdf");
         }).fail(function (response) {
                 console.log(response);
             alert("Lỗi load sản phẩm");
