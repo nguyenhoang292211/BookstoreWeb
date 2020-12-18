@@ -16,7 +16,7 @@ namespace BOOKSTOREWEB.DAO
 
         }
 
-        string ConnStr = @"Data Source=DESKTOP-S3G5KIT\SQLEXPRESS;Initial Catalog=BOOKSTOREWEB;Integrated Security=True";
+        string ConnStr = @"Data Source=DESKTOP-VQRDFSM;Initial Catalog=BOOKSTOREWEB;Integrated Security=True";
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;
@@ -79,7 +79,7 @@ namespace BOOKSTOREWEB.DAO
                 comm.ExecuteNonQuery();
                 f = true;
             }
-            catch (SqlException ex)
+                catch (SqlException ex)
             {
             }
 

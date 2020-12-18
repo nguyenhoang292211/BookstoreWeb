@@ -1,926 +1,355 @@
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\DoAn\DoAnCuoiKy\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csc.rsp
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\csi.rsp
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Razor.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-C:\Users\TRAN VAN AN\Desktop\BOOKSTOREWEB\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-<<<<<<< HEAD
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.rsp
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.rsp
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-E:\TienGiang\Nam3Ky1\Thương mại điện tử\Bitbucket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\HCMUTE\HKI_2020_2021\Thuong_mai_dien_tu\Bitbuket\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\PayPal.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\PayPal.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\TÀI LIỆU NĂM 3\Thương mại điện tử\finalProject\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-=======
->>>>>>> 1f09885... giao dien home
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csc.rsp
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\csi.rsp
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\PayPal.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\PayPal.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Razor.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Win32.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\netstandard.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.AppContext.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.Concurrent.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.NonGeneric.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.Specialized.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ComponentModel.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ComponentModel.EventBasedAsync.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ComponentModel.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ComponentModel.TypeConverter.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Console.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Data.Common.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.Contracts.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.Debug.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.FileVersionInfo.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.Process.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.StackTrace.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.TextWriterTraceListener.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.Tools.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.TraceSource.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.Tracing.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Drawing.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Dynamic.Runtime.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Globalization.Calendars.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Globalization.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Globalization.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.Compression.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.Compression.ZipFile.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.FileSystem.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.FileSystem.DriveInfo.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.FileSystem.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.FileSystem.Watcher.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.IsolatedStorage.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.MemoryMappedFiles.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.Pipes.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.IO.UnmanagedMemoryStream.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Linq.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Linq.Expressions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Linq.Parallel.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Linq.Queryable.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Http.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.NameResolution.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.NetworkInformation.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Ping.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Requests.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Security.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.Sockets.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.WebHeaderCollection.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.WebSockets.Client.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Net.WebSockets.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ObjectModel.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Reflection.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Reflection.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Reflection.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Resources.Reader.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Resources.ResourceManager.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Resources.Writer.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.VisualC.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Handles.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.InteropServices.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Numerics.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Formatters.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Json.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Xml.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Claims.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.Algorithms.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.Csp.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.Encoding.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.X509Certificates.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Principal.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.SecureString.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Encoding.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Encoding.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.RegularExpressions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Overlapped.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Tasks.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Tasks.Parallel.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Thread.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.ThreadPool.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Timer.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.ReaderWriter.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.XDocument.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.XmlDocument.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.XmlSerializer.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.XPath.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Xml.XPath.XDocument.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Features.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Session.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.WebUtilities.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Bcl.AsyncInterfaces.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Memory.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Binder.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.CommandLine.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Json.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.UserSecrets.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Physical.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Configuration.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Console.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Debug.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventLog.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventSource.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.ObjectPool.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.ConfigurationExtensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Primitives.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Net.Http.Headers.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Owin.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Win32.Registry.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Owin.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Buffers.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.Immutable.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ComponentModel.Annotations.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.DiagnosticSource.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Memory.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Numerics.Vectors.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Reflection.Metadata.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.Unsafe.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.AccessControl.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Cryptography.Xml.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Permissions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Security.Principal.Windows.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Encodings.Web.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Json.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Tasks.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ValueTuple.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Extensions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Features.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Session.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.WebUtilities.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Bcl.AsyncInterfaces.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Memory.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Binder.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.CommandLine.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Json.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.UserSecrets.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Physical.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileSystemGlobbing.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Configuration.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Console.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Debug.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventLog.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventSource.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.ObjectPool.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.ConfigurationExtensions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Primitives.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Net.Http.Headers.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Owin.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Buffers.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Collections.Immutable.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Diagnostics.DiagnosticSource.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Memory.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Numerics.Vectors.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Reflection.Metadata.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.Unsafe.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Encodings.Web.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Json.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Threading.Tasks.Extensions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.ValueTuple.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.DiaSymReader.Native.x86.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.DiaSymReader.Native.amd64.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Antiforgery.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Core.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.Policy.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Html.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.JsonPatch.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Core.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Razor.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Language.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Runtime.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.Razor.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.DotNet.PlatformAbstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyModel.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Composite.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.Abstractions.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.WebEncoders.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.Bson.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\System.Text.Encoding.CodePages.dll
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Antiforgery.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Core.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.Policy.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Html.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.JsonPatch.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Core.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Razor.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Language.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Runtime.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.pdb
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.pdb
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.Razor.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Composite.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.Abstractions.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Microsoft.Extensions.WebEncoders.xml
-D:\HKI nam3\TMDT\bookstoreweb\BOOKSTOREWEB\bin\Newtonsoft.Json.Bson.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.DiaSymReader.Native.x86.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll.config
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\BOOKSTOREWEB.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\BOOKSTOREWEB.pdb
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csc.exe
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csc.exe.config
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csc.rsp
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csi.exe
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csi.exe.config
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\csi.rsp
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.AppContext.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Collections.Immutable.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Console.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Globalization.Calendars.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Net.Http.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Net.Sockets.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Reflection.Metadata.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.ValueTuple.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\vbc.exe
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\vbc.exe.config
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\vbc.rsp
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\roslyn\VBCSCompiler.exe.config
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Win32.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\netstandard.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.AppContext.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.Concurrent.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.NonGeneric.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.Specialized.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ComponentModel.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ComponentModel.EventBasedAsync.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ComponentModel.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ComponentModel.TypeConverter.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Console.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Data.Common.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.Contracts.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.Debug.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.FileVersionInfo.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.Process.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.StackTrace.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.Tools.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.TraceSource.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.Tracing.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Drawing.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Dynamic.Runtime.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Globalization.Calendars.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Globalization.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Globalization.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.Compression.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.Compression.ZipFile.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.FileSystem.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.FileSystem.DriveInfo.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.FileSystem.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.FileSystem.Watcher.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.IsolatedStorage.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.MemoryMappedFiles.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.Pipes.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.IO.UnmanagedMemoryStream.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Linq.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Linq.Expressions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Linq.Parallel.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Linq.Queryable.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Http.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.NameResolution.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.NetworkInformation.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Ping.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Requests.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Security.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Sockets.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.WebHeaderCollection.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.WebSockets.Client.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.WebSockets.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ObjectModel.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Reflection.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Reflection.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Reflection.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Resources.Reader.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Resources.ResourceManager.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Resources.Writer.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Handles.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.InteropServices.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Numerics.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Formatters.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Json.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.Serialization.Xml.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Claims.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.Algorithms.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.Csp.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.Encoding.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Principal.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.SecureString.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Encoding.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Encoding.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.RegularExpressions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Overlapped.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Tasks.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Tasks.Parallel.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Thread.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.ThreadPool.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Timer.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.ReaderWriter.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.XDocument.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.XmlDocument.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.XmlSerializer.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.XPath.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Xml.XPath.XDocument.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Antiforgery.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Language.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Session.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.Razor.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Binder.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Json.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyModel.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Configuration.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Console.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Debug.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventLog.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventSource.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.ObjectPool.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Primitives.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.WebEncoders.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Net.Http.Headers.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Owin.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Web.Infrastructure.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Win32.Registry.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Newtonsoft.Json.Bson.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Newtonsoft.Json.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Owin.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\PayPal.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Buffers.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.Immutable.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ComponentModel.Annotations.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Memory.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Numerics.Vectors.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Reflection.Metadata.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.AccessControl.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Cryptography.Xml.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Permissions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Security.Principal.Windows.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Encoding.CodePages.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Encodings.Web.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Json.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Tasks.Extensions.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ValueTuple.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Helpers.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Http.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Mvc.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Razor.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Antiforgery.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Language.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.Session.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.pdb
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.pdb
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.CSharp.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeAnalysis.Razor.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Binder.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.CommandLine.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.Json.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Configuration.UserSecrets.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Composite.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileProviders.Physical.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Localization.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Configuration.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Console.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.Debug.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventLog.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Logging.EventSource.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.ObjectPool.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.Primitives.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Extensions.WebEncoders.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Net.Http.Headers.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.Owin.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Newtonsoft.Json.Bson.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\PayPal.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Buffers.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Collections.Immutable.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Memory.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Numerics.Vectors.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Reflection.Metadata.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Encodings.Web.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Text.Json.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Threading.Tasks.Extensions.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.ValueTuple.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Helpers.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Mvc.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Razor.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.Deployment.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.WebPages.Razor.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Newtonsoft.Json.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Net.Http.Formatting.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Http.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\System.Web.Http.WebHost.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CoreCompileInputs.cache
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csproj.CopyComplete
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.dll
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.pdb
+E:\Academy\Working Directory\Comerse_FinalBook\BookstoreWeb\BOOKSTOREWEB\obj\Debug\BOOKSTOREWEB.csprojAssemblyReference.cache

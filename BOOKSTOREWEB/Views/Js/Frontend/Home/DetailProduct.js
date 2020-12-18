@@ -1,76 +1,35 @@
-﻿
+﻿$(document).ready(function () {
+    var para = 6;
 
-/*let idproduct;
-if (typeof (Storage) !== "undefined") {
-    // Store
-    idproduct = sessionStorage.getItem("id_detail_pro");
-}
-else
-    idproduct = "ko lấy được";
-    // Retrieve
-alert(sessionStorage.getItem("id_detail_pro"));
-    //số lượng một sản phẩm bất kì trong cart 
-    */
-
-var redirUrl = window.location.href;
-
-var myParam = redirUrl.split('ID=')[1] ? redirUrl.split('ID=')[1] : '0';
-
-
-
-$(document).ready(function () {
-    var transportJS = new TransportJS(myParam);
+    var transportJS = new TransportJS(para);
     window.transportJS = transportJS;
     window.resultUpdateOrderState = true;
     window.completionRate = 1;
 
 
 });
-function readCookie(name) {
-    var i, c, ca, nameEQ = name + "=";
-    ca = document.cookie.split(';');
-    for (i = 0; i < ca.length; i++) {
-        c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1, c.length);
-        }
-        if (c.indexOf(nameEQ) == 0) {
-            return c.substring(nameEQ.length, c.length);
-        }
-    }
-    return '';
-}
-function writeCookie(name, value, days) {
-    var date, expires;
-    if (days) {
-        date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = "; expires=" + date.toGMTString();
-    } else {
-        expires = "";
-    }
-    document.cookie = name + "=" + value + expires + "; path=/";
-}
+
+
 
 //===================================================================//
 class TransportJS {
 
-    constructor(myParam) {
-        this.idProduct = myParam;
-        this.idCustomer = 3;
-        this.idShop = 1;
-        
-       // alert(this.idProduct);
+    constructor(para) {
+        this.idProduct = para;
+        this.idCus = 1;
+
         this.initEvents();
     }
 
     initEvents() {
         self = this;
         window.orderState = 'all';
+        var idCus = 1;
+        var idProduct = 1;
 
-        this.getTransport(self.idProduct);
-        this.getDetailComment(self.idProduct);
-        this.loadCountCart(self.idCustomer); 
+        this.getTransport(idProduct);
+        this.getDetailComment(idProduct);
+        this.loadCountCart(idCus);
         //save how many start customer give
         var ratedIndex = -1;
         //span-Number
@@ -80,7 +39,6 @@ class TransportJS {
             if (value == 1) return;
             value--;
             $('#quantityWantBy').val(value);
-       
         });
         //butto Plus click
         $('.btn-plus').click(function () {
@@ -88,6 +46,9 @@ class TransportJS {
             if (value == 0) return;
             value++;
             $('#quantityWantBy').val(value);
+            alert(this.inCus);
+
+
         });
         $('#user-rating .fa-star').on('click', function () {
             ratedIndex = parseInt($(this).data('index')) + 1;
@@ -98,31 +59,29 @@ class TransportJS {
 
         })
         $('#btn-submit').click(function () {
-           
+            //variable global
+            var idCustomer = 1;
+            var idProduct = 1;
+            var idShop = 1;
             var content = document.getElementById('user-comment').value;
             var rating = ratedIndex + 1;
-            
-            self.saveComment(self.idCustomer, self.idProduct, self.idShop, content, ratedIndex);
-      
+
+            self.saveComment(idCustomer, idProduct, idShop, content, ratedIndex);
+            // self.fillDataTransportComment(idProduct);
+            // self.getDetailComment(idProduct);
         })
         $('#addToCart').click(function () {
             let numberBuy = parseInt($('#quantityWantBy').val());
-            //alert(numberBuy);
-           // alert(self.idCus);
-            self.createOrder(self.idCustomer, self.idProduct, numberBuy);
+            alert(numberBuy);
+            self.createOrder(self.idCus, self.idProduct, numberBuy);
         })
-        $('#goCheckout').click(function () {
-            var idCus = '2';
-            writeCookie("sessionID", idCus, 0.3);
-            window.location.href = "Checkout.html";
-        } )
 
     }
     //save to cart
     createOrder(idCus, idPro, quantity) {
 
-       // alert(idCus + " " + idPro);
-       // self = this;
+        alert(idCus + " " + idPro);
+        self = this;
         // var URL = self.getUrlApi(window.orderState);
         var URL = "/api/product/createOrder/" + idCus + "/" + idPro + "/" + quantity;
         $.ajax({
@@ -168,12 +127,7 @@ class TransportJS {
             $('#p1-author').append(specification);
             $('#p1-description').html(item.description);
 
-            var pro_manufac = '<span>' + item.publisher + '</span>';
-            var pro_author = '<span>' + item.author + '</span>';
 
-
-            $('#pro_manufac').append(pro_manufac);
-            $('#pro_author').append(pro_author);
 
         });
     }
@@ -195,20 +149,20 @@ class TransportJS {
 
             totalSum++;
             //code add comment by js
-              var divPreview = document.createElement("div");
-              divPreview.setAttribute("class", "reviewer");
+            //  var divPreview = document.createElement("div");
+            //  divPreview.setAttribute("class", "reviewer");
 
             // Name of customer ' comment
             var h4Name = document.createElement("h6");
             var h4NameValue = document.createTextNode(item.name);
             h4Name.appendChild(h4NameValue);
             //Date posting
-            divPreview.appendChild(h4Name);
+            document.getElementById("bootstrap-tab-text-grid").appendChild(h4Name);
 
             var span12 = document.createElement("span");
             var span12Text = document.createTextNode(String(item.datePost));
             span12.appendChild(span12Text);
-            divPreview.appendChild(span12);
+            document.getElementById("bootstrap-tab-text-grid").appendChild(span12);
 
             //Rating
             var divRating = document.createElement("div");
@@ -218,16 +172,16 @@ class TransportJS {
             var pContent = document.createElement("p");
             var pValue = document.createTextNode(item.content);
             pContent.appendChild(pValue);
-            divPreview.appendChild(pContent);
+            document.getElementById("bootstrap-tab-text-grid").appendChild(pContent);
             //  document.getElementById("bootstrap-tab-text-grid").appendChild(divPreview);
 
             let xRating = item.rating;
             var i_rating = ' <div class="ratting">';
             for (var i = 1; i <= xRating; i++) {
-                i_rating += '<i class="far fa-star"></i>'; 
+                i_rating += '<i class="far fa-star"></i>';
             }
             i_rating += '</div> <br>';
-              document.getElementById("bootstrap-tab-text-grid").appendChild(divPreview);
+            //  document.getElementById("bootstrap-tab-text-grid").appendChild(divPreview);
             //divPreview.appendChild(i_rating);
             $('#bootstrap-tab-text-grid').append(i_rating);
 
