@@ -16,7 +16,7 @@ namespace BOOKSTOREWEB.DAO
 
         }
 
-        string ConnStr = @"Data Source=DESKTOP-VQRDFSM;Initial Catalog=BOOKSTOREWEB;Integrated Security=True";
+        string ConnStr = @"Data Source=DESKTOP-VQRDFSM;Initial Catalog=BOOKSTOREWEB;Integrated Security=True;TransparentNetworkIPResolution=False";
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;

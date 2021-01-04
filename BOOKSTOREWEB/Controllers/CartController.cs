@@ -33,13 +33,7 @@ namespace BOOKSTOREWEB.Controllers
             return CartDAO.Instance.GetInfoCustomer(idCus);
 
         }
-        //GUI_Thao: Lấy đơn vị vận chuyển.
-        [HttpGet]
-        [Route("delivery")]
-        public DataTable GetOpDelivery()
-        {
-            return CartDAO.Instance.GetDelivery();
-        }
+       
         //GUI_Thao: Lấy các sản phẩm trong giỏ hàng.
         [HttpGet]
         [Route("listBuying/{idCus}")]
@@ -47,6 +41,7 @@ namespace BOOKSTOREWEB.Controllers
         {
             return CartDAO.Instance.GetCartByIdCus(idCus);
         }
+      
         //GUI_Thao: Lấy phí ship của một đơn vị vận chuyển
         [HttpGet]
         [Route("getFeeShip/{idDel}")]
@@ -54,16 +49,32 @@ namespace BOOKSTOREWEB.Controllers
         {
             return CartDAO.Instance.GetFeeShip(idDel);
         }
+        //GUI_Thao: Get lấy các sản phẩm người dùng muốn mua hiện tại.
+     
         // POST: api/Cart
         public void Post([FromBody] string value)
         {
         }
-        //GUI_Thao: Tạo một đơn hàng mới
         [HttpPost]
-        [Route("createBill")]
-        public bool CreateNewBill([FromBody] Bill bi)
+        [Route("listSelectPro/{idCus}")]
+        public DataTable GetListSelectPro(int idCus, [FromBody] int[] listProducts)
         {
-            return CartDAO.Instance.CreateNewBill(bi.IDCustomer, bi.IDDelivery, bi.IDPayment, bi.IDVoucher, bi.AddressReceive, bi.Phone, bi.FeeShip, bi.TotalCost);
+            DataTable tb = new DataTable();
+            int[] listProductsTemp = listProducts;
+           
+                    
+            tb = CartDAO.Instance.GetListSelectPro(idCus, Convert.ToInt32(listProductsTemp[0]));
+           
+            for (int i = 1; i < listProductsTemp.Length; i++)
+            {
+                DataTable temptb = CartDAO.Instance.GetListSelectPro(idCus, Convert.ToInt32(listProductsTemp[i]));
+                if (temptb.Rows.Count > 0)
+                {
+                    // Data r = temptb.Rows[0].;
+                    tb.ImportRow(temptb.Rows[0]);
+                }
+            }
+            return tb;
         }
         // PUT: api/Cart/5
         public void Put(int id, [FromBody] string value)

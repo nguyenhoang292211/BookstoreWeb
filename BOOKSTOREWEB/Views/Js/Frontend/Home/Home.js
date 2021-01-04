@@ -44,7 +44,7 @@ class ProductJS {
        // alert("đang load event");
        // self.getListTypebook();
         // self.getListHotDealbook();
-      self.gettheBestsaler();
+    //  self.gettheBestsaler();
         self.getCategory();
     }
 

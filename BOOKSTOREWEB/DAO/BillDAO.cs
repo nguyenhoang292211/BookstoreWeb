@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -94,5 +96,63 @@ namespace BOOKSTOREWEB.DAO
                 return data;
             return null;
         }
+
+        //Pro_GUI_Thao: Lấy các đơn vị vận chuyển 
+        public DataTable GetDelivery()
+        {
+            // DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetDelivery ");
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                data = mydb.ExecuteQueryDataSet("USP_GetDelivery ", CommandType.StoredProcedure);
+            }
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+        
+        //Pro_GUI_Thao: Lấy các Khuyến mãi áp dụng -- New Maybe Conflict
+        public DataTable GetPromotion()
+        {
+            // DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetDelivery ");
+            DataTable data;
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                data = mydb.ExecuteQueryDataSet("USP_getVoucher ", CommandType.StoredProcedure);
+            }
+            if (data.Rows.Count > 0)
+                return data;
+            return null;
+        }
+
+        //Pro_GUI_Thao: Cập nhật đơn hàng thanh toán
+        public bool CreateNewBill(int idCus, int idDel, int idPay, int idVou,
+                                    string add, string phone, double feeShip, double totalCost)
+        {
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() { idCus, idDel, idPay, idVou, add, phone, feeShip, totalCost },
+                    new string[] { "@idCus", "@idDelivery", "@idPayment", "@idVoucher", "@address", "@phone", "@feeShip", "@totalCost" });
+                return mydb.MyExecuteNonQuery("USP_create_Bill", CommandType.StoredProcedure, para);    
+            }
+            //  return result>0;
+        }
+        //Pro_GUI_Thao: Cập nhật đơn hàng thanh toán__ NewUpdate_ 3/1
+        public bool MatchInBillDetail(int idCustomer, int idProduct )
+        {
+
+            using (UI_My_DB mydb = new UI_My_DB())
+            {
+                List<SqlParameter> para = mydb.turntoListParam(new ArrayList() {idCustomer, idProduct  },
+                    new string[] { "@idCustomer","@IdProduct" });
+                return mydb.MyExecuteNonQuery("USP_MatchInBillDetail", CommandType.StoredProcedure, para);
+            }
+            //  return result>0;
+        }
+        
+
     }
 }

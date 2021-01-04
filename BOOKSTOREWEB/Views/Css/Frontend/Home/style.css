@@ -1404,7 +1404,7 @@ input#datepicker {
 /*-- //Popup-Box --*/
 
 .banner_inner {
-    background: url(../images/bg1.jpg)no-repeat 0px -73px;
+    background: url(../../../Images/Frontend/Home/bg1.jpg)no-repeat 0px -73px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1880,7 +1880,7 @@ ul.links li a:hover {
 
 @media(max-width:1280px) {
     .banner_inner {
-        background: url(../images/banner4.jpg)no-repeat 0px -55px;
+        background: url(../../../Images/Frontend/Home/banner4.jpg)no-repeat 0px -55px;
         background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
@@ -2043,7 +2043,7 @@ ul.links li a:hover {
 
 @media(max-width:991px) {
     .banner_inner {
-        background: url(../images/banner4.jpg)no-repeat 0px -20px;
+        background: url(../../../Images/Frontend/Home/banner4.jpg)no-repeat 0px -20px;
         background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
