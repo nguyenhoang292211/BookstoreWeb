@@ -9,7 +9,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Goggles Ecommerce Category Bootstrap responsive Web Template | Checkout :: w3layouts</title>
+    <title>Goggles Ecommerce Category Bootstrap responsive Web Template | Payment :: w3layouts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="Goggles a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -23,17 +23,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             window.scrollTo(0, 1);
         }
     </script>
-    <link href="../../../Css/Frontend/Home/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="../../../Css/Frontend/Home/login_overlay.css" rel='stylesheet' type='text/css' />
-    <link href="../../../Css/Frontend/Home/style6.css" rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="../../../Css/Frontend/Home/shop.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../../../Css/Frontend/Home/checkout.css">
-    <link href="../../../Css/Frontend/Home/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
-    <link href="../../../Css/Frontend/Home/style.css" rel='stylesheet' type='text/css' />
-    <link href="../../../Css/Frontend/Home/fontawesome-all.css" rel="stylesheet">
+    <link href="../../../Css/Frontend/Home/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/login_overlay.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/style6.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/shop.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/checkout.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/easy-responsive-tabs.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../../Css/Frontend/Home/fontawesome-all.css" rel="stylesheet" type="text/css" />
+
     <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
-          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <!--<link href="NewBillDetail.css" rel="stylesheet">-->
+    <link href="../../../Css/Frontend/NextPayment.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,11 +47,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 </div>
                 <div class="col-md-6 logo-w3layouts text-center">
-                    <h1 class="logo-w3layouts">
+                    <h3 class="logo-w3layouts">
                         <a class="navbar-brand" href="index.html">
                             Book Store
                         </a>
-                    </h1>
+                    </h3>
                 </div>
 
                 <div class="col-md-3 top-info-cart text-right mt-lg-4">
@@ -64,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <input type="hidden" name="cmd" value="_cart">
                                 <input type="hidden" name="display" value="1">
                                 <button class="top_googles_cart" type="submit" name="submit" value="">
-                                    My Cart : <span id="span-Number"></span>
+                                    My Cart<span id="span-Number"></span>
                                     <i class="fas fa-cart-arrow-down"></i>
                                 </button>
                             </form>
@@ -126,8 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <label class="top-log mx-auto"></label>
             <nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
 
-                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
 
                     </span>
@@ -144,8 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                               aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Features
                             </a>
                             <ul class="dropdown-menu mega-menu ">
@@ -197,8 +197,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </ul>
                         </li>
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
-                               aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Shop
                             </a>
                             <ul class="dropdown-menu mega-menu ">
@@ -299,69 +298,138 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             </nav>
         </header>
-        <!-- banner -->
-        <div class="banner_inner">
-            <div class="services-breadcrumb">
-                <div class="inner_breadcrumb">
-
-                    <ul class="short">
-                        <li>
-                            <a href="index.html">Home</a>
-                            <i>|</i>
-                        </li>
-                        <li>Checkout </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!--//banner -->
     </div>
+    <!-- banner -->
+    <div class="banner_inner">
+        <div class="services-breadcrumb">
+            <div class="inner_breadcrumb">
+
+                <ul class="short">
+                    <li>
+                        <a href="index.html">Home</a>
+                        <i>|</i>
+                    </li>
+                    <li>Payment </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--//banner -->
     <!--// header_top -->
-    <!--checkout-->
+    <!--Payment-->
     <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
         <div class="container">
             <div class="inner-sec-shop px-lg-4 px-3">
-                <h3 class="tittle-w3layouts my-lg-4 mt-3">Checkout </h3>
-                <div class="checkout-right">
-                    <h4>
-                        Your shopping cart contains :
-                        <span id="totalQuantity"></span>
-                        <span> Products</span>
-                    </h4>
-                    <table id="tableCart" class="timetable_sub">
-                        <thead>
-                            <tr>
-                                <th>SL No.</th>
-                                <th>Product</th>
-                                <th>Quantity</th>
-                                <th>Product Name</th>
-
-                                <th>Price</th>
-                                <th>Remove</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tableBody">
-                        </tbody>
-                    </table>
-                </div>
-                <div class="checkout-left row">
-                    <div class="col-md-4 checkout-left-basket">
-                        <h4 id="btnSubmitBill">Continue to basket</h4>
-                        <ul id="partPayment">
-                            
+                <h3 class="tittle-w3layouts my-lg-4 mt-3">Payment </h3>
+                <!--/tabs-->
+                <div class="responsive_tabs">
+                    <div id="horizontalTab">
+                        <ul class="resp-tabs-list">
+                            <li>Xác nhận thông tin</li>
+                           
                         </ul>
-                    </div>
-                  
-                    <div class="clearfix"> </div>
+                        <div class="resp-tabs-container">
 
-                </div>
+                    
+                            <div class="tab2">
+                                <table class="content-table">
+                                    <tr class="header-table">
+                                        <th class="th-row">STT</th>
+                                        <th class="th-row">Ảnh</th>
+                                        <th class="th-row">Tên sản phẩm</th>
+                                        <!--<th class="th-row">Ghi chú</th>-->
+                                        <th class="th-row">Giá</th>
+                                        <th class="th-row">Số lượng</th>
+                                        <th class="th-row">Tỏng tiền</th>
+                                    </tr>
+
+                                    <tbody id="myTable"  class="tb-product">
+                                        <!-- Add Data-->
+                                    </tbody>
+                                </table>
+                                <div class="pay_info">
+                                    <div class="subCal">
+                                        <div class="left-option">
+                                            Choose your voucher
+                                        </div>
+                                        <div class="right-option ">
+                                            <select class="voucher-option my-option"  id="selectionVoucher">
+                                                
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="subCal">
+                                        <div class="left-option">
+                                            (You will receive your order within 3 days of order)  Your Delivery
+                                        </div>
+                                        <div class="right-option ">
+                                            <select class="voucher-option my-option " id="selectionDelivery">
+                                               
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="subCal">
+                                        <div  class="left-subCal"> Tạm tính   </div>
+                                        <div id="money-subTotal" class="right-subCal">340,000</div>
+                                    </div>
+                                    <div class="subCal">
+                                        <div  class="left-subCal"> Khuyến mãi </div>
+                                        <div id="apply-Voucher" class="right-subCal">34,000</div>
+                                    </div>
+                                    <div class="subCal">
+                                        <div class="apply left-subCal"> Phí Ship </div>
+                                        <div id="apply-Delivery" class="right-subCal">34,000</div>
+                                    </div>
+                                    <div class="subCal">
+                                        <div class="left-subCal"> Tổng thanh toán </div>
+                                        <div id="money-mainTotal" class="right-subCal total-Payment">34,000</div>
+                                    </div>
+
+                                    <form action="#" method="post" class="creditly-card-form agileinfo_form">
+                                      
+                                        <section class="creditly-wrapper wthree, w3_agileits_wrapper">
+                                            <div class="credit-card-wrapper">
+                                                <div class="first-row form-group">
+                                                    <div class="controls">
+                                                        <label class="control-label">Name receive: </label>
+                                                        <input id="nameCustomer" class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
+                                                    </div>
+                                                    <div class="w3_agileits_card_number_grids">
+                                                        <div class="w3_agileits_card_number_grid_left">
+                                                            <div class="controls">
+                                                                <label class="control-label">Your phone</label>
+                                                                <input id="phoneCustomer" class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number" autocompletetype="cc-number" x-autocompletetype="cc-number" placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="w3_agileits_card_number_grid_right">
+                                                            <div class="controls">
+                                                                <label class="control-label">Address</label>
+                                                                <input id="addressCustomer" class=" form-control" type="text" name="security-code" placeholder="Tan Phu Street">
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"> </div>
+                                                    </div>
+                                                   
+                                                </div>
+                                                <button id="btn-submit" class="submit">
+                                                    <span>Make a payment </span>
+                                                </button>
+                                            </div>
+                                        </section>
+                                    </form>
+
+                                </div>
+            </div>
 
             </div>
 
         </div>
+        <!-- //payment -->
     </section>
-    <!--//checkout-->
+    <!--//Payment-->
     <!--footer -->
     <footer class="py-lg-5 py-3">
         <div class="container-fluid px-lg-5 px-3">
@@ -371,10 +439,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <h3>About Us</h3>
                     </div>
                     <div class="footer-text">
-                        <p>
-                            Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at
-                            tellus. Nulla porttitor accumsana tincidunt.
-                        </p>
+                        <p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
                         <ul class="footer-social text-left mt-lg-4 mt-3">
 
                             <li class="mx-2">
@@ -473,23 +538,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
     </footer>
-    <!-- //footer -->
-    <!--jQuery-->
-
+   
     <script src="../../../Js/Frontend/Home/jquery-2.2.3.min.js"></script>
-    <!-- newsletter modal -->
-    <!--search jQuery-->
+  
     <script src="../../../Js/Frontend/Home/modernizr-2.6.2.min.js"></script>
-
     <script src="../../../Js/Frontend/Home/classie-search.js"></script>
     <script src="../../../Js/Frontend/Home/demo1-search.js"></script>
 
 
     <!--//search jQuery-->
     <!-- cart-js -->
-
+    <!--<script src="js/minicart.js"></script>-->
     <script src="../../../Js/Frontend/Home/minicart.js"></script>
-
     <script>
         googles.render();
 
@@ -517,10 +577,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             open = false;
         });
     </script>
-    <!-- carousel -->
-    <!-- easy-responsive-tabs -->
-    <script src="../../../Js/Frontend/Home/easy-responsive-tabs.js"></script>
+ 
 
+    <script src="../../../Js/Frontend/Home/easy-responsive-tabs.js"></script>
     <script>
         $(document).ready(function () {
             $('#horizontalTab').easyResponsiveTabs({
@@ -543,26 +602,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
         });
     </script>
-    <!--quantity-->
 
-    <!--quantity-->
-    <!--close-->
-    <script>
-        $(document).ready(function (c) {
-            $('.close1').on('click', function (c) {
-                $('.rem1').fadeOut('slow', function (c) {
-                    $('.rem1').remove();
-                });
+    <script type="text/javascript" src="../../../Js/Frontend/Home/creditly.js"></script>
+    <link rel="stylesheet" href="../../../Css/Frontend/Home/creditly.css" type="text/css" media="all" />
+
+    <script type="text/javascript">
+        $(function () {
+            var creditly = Creditly.initialize(
+                '.creditly-wrapper .expiration-month-and-year',
+                '.creditly-wrapper .credit-card-number',
+                '.creditly-wrapper .security-code',
+                '.creditly-wrapper .card-type');
+
+            $(".creditly-card-form .submit").click(function (e) {
+                e.preventDefault();
+                var output = creditly.validate();
+                if (output) {
+                    // Your validated credit card output
+                    console.log(output);
+                }
             });
         });
     </script>
-    <script>
-  
-    </script>
-    <script>
-    
-    </script>
-    <!--//close-->
+    <!-- //credit-card -->
     <!-- dropdown nav -->
     <script>
         $(document).ready(function () {
@@ -579,9 +641,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     </script>
     <!-- //dropdown nav -->
+    <!--<script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>-->
     <script src="../../../Js/Frontend/Home/move-top.js"></script>
     <script src="../../../Js/Frontend/Home/easing.js"></script>
-
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -609,15 +672,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         });
     </script>
+
+    <script>
+        var myArray = [
+            {
+                'name': 'Váy xinh công chúa', 'img': 'https://newshop.vn/public/uploads/products/2583/toi-thay-hoa-vang-tren-co-xanh.jpg',
+                'property': 'Không có gì nổi bật', 'quantity': 2, 'price': 2300
+            },
+            {
+                'name': 'Váy xinh công chúa', 'img': 'https://newshop.vn/public/uploads/products/2583/toi-thay-hoa-vang-tren-co-xanh.jpg',
+                'property': 'Không có gì nổi bật', 'quantity': 2, 'price': 2300
+            },
+            {
+                'name': 'Váy xinh công chúa', 'img': 'https://newshop.vn/public/uploads/products/2583/toi-thay-hoa-vang-tren-co-xanh.jpg',
+                'property': 'Không có gì nổi bật', 'quantity': 2, 'price': 2300
+            },
+        ]
+
+       
+
+    </script>
     <!--// end-smoth-scrolling -->
-    <!--/bootstrap.js-->
-    <link href="../../../Css/Frontend/Home/bootstrap.css" rel='stylesheet' type='text/css' />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="../../../Js/Frontend/CheckoutPayment.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!--<script src="js/bootstrap.js"></script>-->
     <script src="../../../Js/Frontend/Home/bootstrap.js"></script>
-
-
+    <script src="../../../Js/Frontend/Home/Payment.js"></script>
     <!-- js file -->
 </body>
 

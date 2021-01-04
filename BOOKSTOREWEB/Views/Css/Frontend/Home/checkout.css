@@ -509,10 +509,15 @@ button.submit.check_out {
 	margin-bottom: 2em;
 }
 
-
+#btnSubmitBill:hover {
+	cursor: pointer;
+	background: #fff;
+	color: #d39797;
+	
+}
 /*-- //Pay-page --*/
 @media(max-width:384px) {
-    .timetable_sub th, .timetable_sub td {
+	.timetable_sub th, .timetable_sub td {
         text-align: center;
         padding: 3px!important;
         font-size: 14px!important;
