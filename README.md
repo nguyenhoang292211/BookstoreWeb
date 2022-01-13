@@ -1,16 +1,14 @@
 # VNTRAVEL
 
+#### The application aims to build an environment for information, recording honest, high-quality reviews and comments of people interested in exploring and traveling in Vietnam. Along with that is the desire to integrate many convenient functions in the same app to bring high convenience to users, create a schedule for the trip, and store information and images about the past trip.  
 
-<img src="https://res.cloudinary.com/vntravel285366/image/upload/v1642082566/Minimal_Digital_Tech_Innovation_Company_Logo_8_kmvay1.png" width="60"> 
-
-###Ứng dụng hướng đến xây dựng một môi trường để thông tin, ghi nhận những đánh giá, bình luận chân thực, chất lượng cao của những người có sở thích khám phá, du lịch ở Việt Nam. Cùng với đó là mong muốn tích hợp nhiều chức năng tiện ích trong cùng một app mang đến sự tiện lợi cao cho người sử dụng, với tạo lịch trình cho chuyến đi, và lưu trữ các thông tin, hình ảnh về chuyến đi đã qua. 
+<img src="https://res.cloudinary.com/vntravel285366/image/upload/v1642082566/Minimal_Digital_Tech_Innovation_Company_Logo_8_kmvay1.png" height="30"  width="40>
 
 <details>
   <summary>Overview</summary>
   
-  #### : Folder structure
+  ### Folder structure
   
-
   VNTravel
   ```
 +---vn-travel-server
@@ -698,7 +696,7 @@
     \---__tests__
             App-test.js
             
-  ```
+    ```
 </details>
 
 
@@ -747,7 +745,6 @@ You can now view clients in the browser.
 Note that the development build is not optimized.
 To create a production build, use yarn build.
 ```
-
 Access to [http://localhost:3000](http://localhost:3000) to view the website.
  <details>
  
@@ -791,10 +788,10 @@ Node js terminal is opened.
 
 
 ## Deployed product 
-###Server with heroku
+### rver with heroku
  [![](https://vntravel-api.herokuapp.com/app/api/v1)]
  
-###Admin web with netlify
+### Admin web with netlify
  [![](https://vntravelguide.netlify.app/admin/dashboard)]
 
 ## Intergrate
